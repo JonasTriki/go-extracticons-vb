@@ -1,0 +1,343 @@
+[IsGoExtractIconsLangFile]
+TrueOrFalse=True
+
+[Errors]
+IndexShoudBeInRange=Indeksen må være innenfor rekkevidde (0-
+NoIconsInTheList=Ingen ikoner i listen!
+TheFileDoesNotExistOrIsEmpty=Filen eksisterer ikke eller er tom!
+TheFileDoesNotExist=Filen eksisterer ikke!
+TheFile=Filen
+IsNotAnValidWin32ExecutableOrDLL=er ikke en gyldig win32 kjørbarfil eller DLL!
+AnUnexpectedErrorHasArrived=En uventet feil har ankomment!
+TheIconsToTheFileIsNotAvailableYouCantExtractIconsFromThisFile=Ikonene til filen er ikke tilgjengelig. Du kan ikke pakke ut ikoner fra filen.
+TheIconsListShoudContainAtLeastOneIcon=Ikonene i listen må inneholde mist ett ikon!
+TheIconIsEmpty=Ikonet er tomt!
+
+[MessageBoxCommands]
+DoNotShowThisMessageBoxAgain=Ikke vis denne meldingen på nytt.
+OK=&OK
+Cancel=&Avbryt
+Yes=&Ja
+No=&Nei
+Help=&Hjelp
+Retry=&Prøv på nytt
+Save=&Lagre
+DoNotSave=&Ikke lagre
+
+[SomeCommands]
+Of=av
+ExtractingIconsFromFile=Pakker ut ikoner fra fil...
+ExtractingIconsFrom=Pakker ut ikoner fra
+LookingForIconsInTheFolder=Ser etter ikoner i mappen
+IconsFound=ikoner funnet!
+IconFound=ikon funnet!
+NoIconsFound=Ingen ikoner funnet!
+Copyright=Copyright © 2009 - 2010 Go! Visual Team™. Med enerett.
+SearchedFiles=Søkte filer
+MoreThanOneIconIsSelected=Mer enn et ikon er merkert...
+NoIconsInIconList=Ingen ikoner i listen...
+Byte=byte
+YB=YB
+ZB=ZB
+EB=EB
+PB=PB
+TB=TB
+GB=GB
+MB=MB
+KB=KB
+Name=Navn: 
+ID=ID:
+_Icons=Ikoner:
+FileName=Filnavn:
+FileSize=Fil størrelse:
+IconsInFile=Antall ikoner:
+CompleteFileName=Fullt filnavn:
+AreYouSureYouWannaRestartGoExtractIcons=Er du sikker på at du vil restarte Go! Visual Team?
+AreYouSureYouWannaRemoveTheSelectedIconFromTheList=Er du sikker på at du vil slette ikonet fra listen?
+TheIconIsTooBigToBeViewed=Ikonet er for stort til å bli forhåndsvist...
+NewI=Nytt ikon...
+AddNewIcon=Legg til et ikon...
+OpenIcon=Åpne ikon...
+SaveIconAs=Lagre ikon som...
+SaveI=Lagre ikon...
+IconSize=Ikon størrelse:
+Colors=Antall farger:
+ColorDepth=Fargedybde:
+ISize=Størrelse:
+IconMerge=Ikon fletter...
+Icons=Ikon
+NoIcon=Ingen ikon...
+BPP=-Bits
+EmptyIcon=Ikonet er tomt...
+AreYouSureThatYouWannaDeleteThisLanguagePackPermanently=Er du sikker på at du vil slette denne språkpakken for alltid?
+LANGFiles=LANG-filer
+PleaseChooseALanguagePack=Venligst velg en språkpakke du vil legge til...
+Total=Totalt
+Icons=ikon(er)
+IsSaved=ble lagret
+PleaseChooseAnIcon=Venligst velg et ikon...
+ExecutableFiles=Gjennomførbare filer
+AllFiles=Alle filer
+PleaseChooseAFile=Vengligst velg en fil...
+PleaseChooseAFolder=Vengligst velg en mappe...
+LoadingProcesses=Laster inn prosesser
+Error=Feil!
+NoMatch=Ingen treff!
+Success=Suksessfullt!
+GoExtractIconsWillNotStartWhenWindowsStarts=Go! ExtractIcons vil ikke bli startet når Windows starter!
+GoExtractIconsWillStartWhenWindowsStarts=Go! ExtractIcons vil bli startet når Windows starter!
+GoExtractIconsIsMinimizedToTheSystemFieldToMaximizeTheApplicationAgainClickTheBubble=Go! ExtractIcons har blitt minimert til systemfeltet, for å gjennopprette applikasjonen igjen, klikk på boblen...
+
+[MenuBarButtons]
+File=Fil
+Edit=Rediger
+View=Vis
+Tools=Verktøy
+Help=Hjelp
+
+[MenuBarFileButtons]
+SearchIconsInWebsite=Søk etter ikoner i nettsite...
+SearchIcons=Søk etter ikoner...
+SaveIcons=Lagre ikoner...
+FileProperties=Fil egenskaper
+Properties=Egenskaper
+Exit=Avslutt
+
+[MenuBarEditButtons]
+CopySelectedIcon=Kopier merkert ikon
+SelectAllIcons=Merk alle ikoner
+DeSelectAll=Fjern merkering
+Search=Søk etter...
+
+[MenuBarViewButtons]
+IconView=Ikon visning
+BigIcons=Store ikoner
+SmallIcons=Små ikoner
+BigIconsWithDetails=Store ikoner med detaljer
+List=Liste
+Details=Detaljer
+MenuBar=Menyline
+IconTree=Ikon tre
+StatusBar=Statuslinje
+
+[MenuBarToolsButtons]
+Options=Alternativer...
+OpenIconMerge=Åpne ikon fletter...
+
+[MenuBarHelpButtons]
+StartGoExtractIconsWhenWindowsStarts=Start Go! ExtractIcons når Windows starter
+CheckForUpdates=Se etter oppdateringer...
+RestartGoExtractIcons=Restart Go! ExtractIcons
+AboutGoExtractIcons=Om Go! ExtractIcons
+
+[Backward]
+ToolTipTitle=Gå ett ikon tilbake
+ToolTipText=(Ctrl+Pil venstre)
+
+[Forward]
+ToolTipTitle=Gå ett ikon frem
+ToolTipText=(Ctrl+Pil høyre)
+
+[FileInfo]
+ToolTipTitle=Egenskaper for ikon...
+ToolTipText=(Alt+Enter)
+
+[SearchIcons]
+ToolTipTitle=Søk etter ikoner...
+ToolTipText=(Ctrl+Shift+S)
+
+[SaveIcons]
+ToolTipTitle=Lagre ikon(er) til...
+ToolTipText=(Ctrl+S)
+
+[SearchBox]
+WatermarkText=Venligst skriv inn søkeord her...
+
+[SearchAfterIcon]
+ToolTipTitle=Søk etter søkeord
+ToolTipText=("")
+
+[FileBtn]
+Text=Fil
+
+[FileBtnContextMenuBarButtons]
+File=Fil
+Edit=Rediger
+View=Vis
+Tools=Verktøy
+Help=Hjelp
+SearchIcons=Søk etter ikoner...
+Options=Alternativer...
+OpenIconMerge=Åpne ikon fletter...
+ShowMenuBar=Vis menylinjen
+Exit=Avslutt
+
+[FileBtnContextMenuBarFileButtons]
+SearchIcons=Søk etter ikoner...
+SaveIcons=Lagre ikoner...
+FileProperties=Fil egenskaper
+Properties=Egenskaper
+Exit=Avslutt
+
+[FileBtnContextMenuBarEditButtons]
+CopySelectedIcon=Kopier merkert ikon
+SelectAllIcons=Merk alle ikoner
+DeSelectAll=Fjern merkering
+Search=Søk etter...
+
+[FileBtnContextMenuBarViewButtons]
+IconView=Ikon visning
+BigIcons=Store ikoner
+SmallIcons=Små ikoner
+BigIconsWithDetails=Store ikoner med detaljer
+List=Liste
+Details=Detaljer
+MenuBar=Menyline
+IconTree=Ikon tre
+StatusBar=Statuslinje
+
+[FileBtnContextMenuBarToolsButtons]
+Options=Alternativer...
+OpenIconMerge=Åpne ikon fletter...
+[FileBtnContextMenuBarHelpButtons]
+StartGoExtractIconsWhenWindowsStarts=Start Go! ExtractIcons når Windows starter
+CheckForUpdates=Se etter oppdateringer...
+RestartGoExtractIcons=Restart Go! ExtractIcons
+AboutGoExtractIcons=Om Go! ExtractIcons
+
+[IconTreeView]
+SearchedFolders=Søkte mapper
+SearchedFiles=Søkte filer
+[IconTreeViewContextMenuBarButtons]
+OpenPropertiesForIcon=Åpne egenskaper for ikon...
+OpenPropertiesForFile=Åpne egenskaper for fil...
+SearchIcons=Søk etter ikoner...
+SaveIconTo=Lagre ikon til...
+CopySelectedIcon=Kopier merkert ikon
+Search=Søk etter...
+
+[IconListView]
+Name=Navn
+ID=ID
+IconSize=Ikon størrelse
+Icons=Ikoner
+FileName=Filnavn
+FileSize=Fil størrelse
+TotalIcons=Antall ikoner
+CompleteFileName=Fullt filnavn
+
+[SearchBoxContextMenuBarButtons]
+Undo=Angre
+ClearUndo=Slett angre
+Copy=Kopier
+Paste=Lim inn
+PasteAndSearch=Lim inn og søk etter...
+Cut=Klipp ut
+SelectAll=Merk alt
+DeSelectAll=Fjern merkering
+Delete=Slett
+ClearAll=Slett alt
+
+[IconListViewContextMenuBarButtons]
+OpenPropertiesForIcon=Åpne egenskaper for ikon...
+OpenPropertiesForFile=Åpne egenskaper for fil...
+SearchIcons=Søk etter ikoner...
+SaveIcons=Lagre ikoner...
+CopySelectedIcon=Kopier merkert ikon
+SelectAllIcons=Merk alle ikoner
+DeSelectAll=Fjern merkering
+Search=Søk etter...
+
+[SystemIconContextMenuBarButtons]
+Minimize=Minimer
+Maximize=Maksimer
+SearchIcons=Søk etter ikoner...
+CheckForUpdates=Se etter oppdateringer...
+RestartGoExtractIcons=Restart Go! ExtractIcons
+AboutGoExtractIcons=Om Go! ExtractIcons
+Exit=Avslutt
+
+[frmAbout]
+Text=Om Go! ExtractIcons
+
+[frmAboutControls]
+ThisProgramIsMadeByGoVisualTeamForMoreInformationPleaseVisitOurSite=Dette programmet er laget av Go! Visual Team.&NEWLINE&For mer informasjon, venligst besøk siden vår.
+
+[frmOpenIcons]
+Text=Søk etter ikon...
+
+[frmOpenIconsControls]
+Basics=Generelt
+LoadProcessesAgain=Last inn prosesser på nytt...
+OpenFolder=Åpne mappe
+SearchIconsInFiles=Søk etter ikoner i filer...
+SearchInSubFolders=Søk i undermapper
+ChooseFolder=Bla gjennom mapper...
+ChooseFile=Bla gjennom filer...
+SearchIconsInTheSeletedProcess=Søk etter ikoner i den valgte prosessen:
+Name=Navn: 
+Size=Størrelse: 
+ChooseAProgram=Velg et program...
+SearchIcons=Søk etter ikoner...
+Close=Lukk
+
+[frmViewIcons]
+Text=Egenskaper for 
+
+[frmViewIconsControls]
+Basics=Generelt
+Filename=Filnavn
+IconID=Ikon ID
+ID=ID
+Size=Størrelse
+ColorDepth=Fargedybde
+Dimensions=Dimensjoner
+Colors=Antall farger
+Preview=Forhåndsvisning
+CopyIcon=Kopier ikon
+SaveIconsTo=Lagre ikon(er) til...
+Close=Lukk
+
+[frmSaveIcons]
+Text=Lagre ikoner til...
+
+[frmSaveIconsControls]
+FDD=Venligst velg en mappe du vil lagre ikonene til...
+SaveIconsToFolder=Lagre ikoner til mappe: 
+SaveIcons=Lagre ikoner...
+Close=Lukk
+
+[frmOptions]
+Text=Alternativer...
+
+[frmOptionsControls]
+RestartGoExtractIconsForThisChangeToTakeEffect=Start Go! ExtractIcons på nytt for at endringen skal tre i kraft...
+Basics=Generelt
+StartUp=Ved oppstart:
+SearchIcons=Søk etter ikoner...
+DoNothing=Ikke gjør noe...
+MessageBoxes=Meldigs bokser:
+ShowRestartMessageBox=Vis ved restarting av Go! ExtractIcons...
+ShowRemoveSelectedIconMessageBox=Vis ved fjerning av ikoner i ikon fletter...
+Language=Språk:
+RemoveLangPack=Fj&ern språkpakke...
+AddLangPack=&Legg til språkpakke...
+Restart=&Restart Go! ExtractIcons
+OK=&OK
+
+[frmIconMerge]
+Text=Ikon fletter...
+[frmIconMergeMenuBarButtons]
+File=Fil
+Edit=Rediger
+[frmIconMergeMenuBarFileButtons]
+NewIcon=Nytt ikon...
+OpenIcon=Åpne ikon...
+CloseIcon=Lukk ikon...
+SaveIcon=Lagre ikon...
+SaveIconAs=Lagre ikon som...
+Close=Lukk
+
+[frmIconMergeMenuBarEditButtons]
+AddNewIcon=Legg til et ikon...
+RemoveSelectedIcon=Fjern ikon...

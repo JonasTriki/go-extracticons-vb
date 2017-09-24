@@ -1,0 +1,347 @@
+[IsGoExtractIconsLangFile]
+TrueOrFalse=True
+
+[Errors]
+IndexShoudBeInRange=Index shoud be in range (0-
+NoIconsInTheList=No icons in the list.
+TheFileDoesNotExistOrIsEmpty=The file does not exists or is empty.
+TheFileDoesNotExist=The file does not exists.
+TheFile=The file
+IsNotAnValidWin32ExecutableOrDLL=is not an valid win32 executable or DLL.
+AnUnexpectedErrorHasArrived=An unexpected error has arrived.
+TheIconsToTheFileIsNotAvailableYouCantExtractIconsFromThisFile=The icons to the file is not available. You cant extract icons from this file.
+TheIconsListShoudContainAtLeastOneIcon=The icons list shoud contain at least one icon!
+TheIconIsEmpty=The icon is empty!
+
+[MessageBoxCommands]
+DoNotShowThisMessageBoxAgain=Do not show this message again.
+OK=&OK
+Cancel=&Cancel
+Yes=&Yes
+No=&No
+Help=&Help
+Retry=&Retry
+Save=&Save
+DoNotSave=&Do not save
+
+[SomeCommands]
+Of=of
+ExtractingIconsFromFile=Extracting icons from file...
+ExtractingIconsFrom=Extracting icons from
+LookingForIconsInTheFolder=Looking for icons in the folder
+IconsFound=icons found!
+IconFound=icon found!
+NoIconsFound=Ingen ikoner funnet!
+Copyright=Copyright © 2009 - 2010 Go! Visual Team™. All rights reserved.
+SearchedFiles=Searched files
+MoreThanOneIconIsSelected=More than one icon is selected...
+NoIconsInIconList=No icons in icon list...
+Byte=byte
+YB=YB
+ZB=ZB
+EB=EB
+PB=PB
+TB=TB
+GB=GB
+MB=MB
+KB=KB
+Name=Name: 
+ID=ID:
+_Icons=Icons:
+FileName=Filename:
+FileSize=File size:
+IconsInFile=Icons in file:
+CompleteFileName=Complete filename:
+AreYouSureYouWannaRestartGoExtractIcons=Are you sure you wanna restart Go! ExtractIcons?
+AreYouSureYouWannaRemoveTheSelectedIconFromTheList=Are you sure you wanna remove the selected icon from the list?
+TheIconIsTooBigToBeViewed=The icon is too big to be viewed...
+NewI=New icon...
+AddNewIcon=Add new icon...
+OpenIcon=Open icon...
+SaveIconAs=Save icon as...
+SaveI=Save icon...
+IconSize=Icon size:
+Colors=Colors:
+ColorDepth=Color depth:
+ISize=Size:
+IconMerge=Icon merge...
+Icons=Icon
+NoIcon=No icon...
+BPP=bpp
+EmptyIcon=The icon is empty...
+AreYouSureThatYouWannaDeleteThisLanguagePackPermanently=Are you sure that you wanna delete this languagepack permanently?
+LANGFiles=LANG-files
+PleaseChooseALanguagePack=Please choose a language pack...
+Total=Total
+Icons=icon(s)
+IsSaved=is saved
+PleaseChooseAnIcon=Please choose an icon...
+ExecutableFiles=Executable files
+AllFiles=All files
+PleaseChooseAFile=Please choose a file...
+PleaseChooseAFolder=Please choose a folder...
+LoadingProcesses=Loading processes
+Error=Error!
+NoMatch=No match found!
+Success=Success!
+GoExtractIconsWillNotStartWhenWindowsStarts=Go! ExtractIcons will not start when Windows starts!
+GoExtractIconsWillStartWhenWindowsStarts=Go! ExtractIcons will start when Windows starts!
+GoExtractIconsIsMinimizedToTheSystemFieldToMaximizeTheApplicationAgainClickTheBubble=Go! ExtractIcons is minimized to the system field, to maximize the application again, click the bubble...
+
+[MenuBarButtons]
+File=File
+Edit=Edit
+View=View
+Tools=Tools
+Help=Help
+
+[MenuBarFileButtons]
+SearchIconsInWebsite=Search icons in website...
+SearchIcons=Search icons...
+SaveIcons=Save icons...
+FileProperties=File Properties
+Properties=Properties
+Exit=Exit
+
+[MenuBarEditButtons]
+CopySelectedIcon=Copy selected icon
+SelectAllIcons=Select all icons
+DeSelectAll=Deselect all
+Search=Search...
+
+[MenuBarViewButtons]
+IconView=Icon view
+BigIcons=Big icons
+SmallIcons=Small icons
+BigIconsWithDetails=Big icons with details
+List=List
+Details=Details
+IconTree=Icon tree
+MenuBar=Menubar
+StatusBar=Statusbar
+
+[MenuBarToolsButtons]
+Options=Options...
+OpenIconMerge=Open icon merge...
+
+[MenuBarHelpButtons]
+StartGoExtractIconsWhenWindowsStarts=Start Go! ExtractIcons when Windows starts
+CheckForUpdates=Check for updates...
+RestartGoExtractIcons=Restart Go! ExtractIcons
+AboutGoExtractIcons=About Go! ExtractIcons
+
+[Backward]
+ToolTipTitle=Go one icon backward
+ToolTipText=(Ctrl+Arrow left)
+
+[Forward]
+ToolTipTitle=Go one icon forward
+ToolTipText=(Ctrl+Arrow right)
+
+[FileInfo]
+ToolTipTitle=Properties for ikon...
+ToolTipText=(Alt+Enter)
+
+[SearchIcons]
+ToolTipTitle=Search icons...
+ToolTipText=(Ctrl+Shift+S)
+
+[SaveIcons]
+ToolTipTitle=Save icon(s) to...
+ToolTipText=(Ctrl+S)
+
+[SearchBox]
+WatermarkText=Type to search...
+
+[SearchAfterIcon]
+ToolTipTitle=Search
+ToolTipText=("")
+
+[FileBtn]
+Text=File
+
+[FileBtnContextMenuBarButtons]
+File=File
+Edit=Edit
+View=View
+Tools=Tools
+Help=Help
+SearchIcons=Search icons...
+Options=Options...
+OpenIconMerge=Open icon merge...
+ShowMenuBar=Show menubar
+Exit=Exit
+
+[FileBtnContextMenuBarFileButtons]
+SearchIcons=Search icons...
+SaveIcons=Save icons...
+FileProperties=File Properties
+Properties=Properties
+Exit=Exit
+
+[FileBtnContextMenuBarEditButtons]
+CopySelectedIcon=Copy selected icon
+SelectAllIcons=Select all icons
+DeSelectAll=Deselect all
+Search=Search...
+
+[FileBtnContextMenuBarViewButtons]
+IconView=Icon view
+BigIcons=Big icons
+SmallIcons=Small icons
+BigIconsWithDetails=Big icons with details
+List=List
+Details=Details
+IconTree=Icon tree
+MenuBar=Menubar
+StatusBar=Statusbar
+
+[FileBtnContextMenuBarToolsButtons]
+Options=Options...
+OpenIconMerge=Open icon merge...
+
+[FileBtnContextMenuBarHelpButtons]
+StartGoExtractIconsWhenWindowsStarts=Start Go! ExtractIcons when Windows starts
+CheckForUpdates=Check for updates...
+RestartGoExtractIcons=Restart Go! ExtractIcons
+AboutGoExtractIcons=About Go! ExtractIcons
+
+[IconTreeView]
+SearchedFolders=Searched folders
+SearchedFiles=Searched files
+
+[IconTreeViewContextMenuBarButtons]
+OpenPropertiesForIcon=Open properties for icon...
+OpenPropertiesForFile=Open properties for file...
+SearchIcons=Search icons...
+SaveIconTo=Save icon to...
+CopySelectedIcon=Copy selected icon
+Search=Search...
+
+[IconListView]
+Name=Name
+ID=ID
+IconSize=Icon size
+Icons=Icons
+FileName=Filename
+FileSize=File size
+TotalIcons=Icons in file
+CompleteFileName=Complete filename
+
+[SearchBoxContextMenuBarButtons]
+Undo=Undo
+ClearUndo=Clear undo
+Copy=Copy
+Paste=Paste
+PasteAndSearch=Paste and search...
+Cut=Cut
+SelectAll=Select all
+DeSelectAll=Deselect all
+Delete=Delete
+ClearAll=Clear all
+
+[IconListViewContextMenuBarButtons]
+OpenPropertiesForIcon=Open properties for icon...
+OpenPropertiesForFile=Open properties for file...
+SearchIcons=Search icons...
+SaveIcons=Save icons...
+CopySelectedIcon=Copy selected icon
+SelectAllIcons=Select all icons
+DeSelectAll=Deselect all
+Search=Search...
+
+[SystemIconContextMenuBarButtons]
+Minimize=Minimize
+Maximize=Maximize
+SearchIcons=Search...
+CheckForUpdates=Check for updates...
+RestartGoExtractIcons=Restart Go! ExtractIcons
+AboutGoExtractIcons=About Go! ExtractIcons
+Exit=Exit
+
+[frmAbout]
+Text=About Go! ExtractIcons
+
+[frmAboutControls]
+ThisProgramIsMadeByGoVisualTeamForMoreInformationPleaseVisitOurSite=This program is made by Go! Visual Team.&NEWLINE&For more information, please visit our site.
+
+[frmOpenIcons]
+Text=Search icons...
+
+[frmOpenIconsControls]
+Basics=Basics
+LoadProcessesAgain=Reload processes...
+OpenFolder=Open folder
+SearchIconsInFiles=Search icons in files
+SearchInSubFolders=Search in subfolders
+ChooseFolder=Choose folder
+ChooseFile=Choose file
+SearchIconsInTheSeletedProcess=Search icons in the selected process:
+Name=Name: 
+Size=Size: 
+ChooseAProgram=Choose a program...
+SearchIcons=Search icons...
+Close=Close
+
+[frmViewIcons]
+Text=Properties for 
+
+[frmViewIconsControls]
+Basics=Basics
+Filename=Filname
+IconID=Icon ID
+ID=ID
+Size=Size
+ColorDepth=Color depth
+Dimensions=Dimensions
+Colors=Colors
+Preview=Preview
+CopyIcon=Copy icon
+SaveIconsTo=Save icon(s) to...
+Close=Close
+
+[frmSaveIcons]
+Text=Save icons to...
+
+[frmSaveIconsControls]
+FDD=Please choose a folder where you will save the icons to...
+SaveIconsToFolder=Save icons to folder: 
+SaveIcons=Save icons...
+Close=Close
+
+[frmOptions]
+Text=Options...
+
+[frmOptionsControls]
+RestartGoExtractIconsForThisChangeToTakeEffect=Restart Go! ExtractIcons for this change to take effect.
+Basics=Basics
+StartUp=Start up:
+SearchIcons=Search icons..
+DoNothing=Do nothing...
+MessageBoxes=Message boxes:
+ShowRestartMessageBox=Show at restart of Go! ExtractIcons...
+ShowRemoveSelectedIconMessageBox=Show at removing of icons in icon merge...
+Language=Language:
+RemoveLangPack=R&emove language pack...
+AddLangPack=&Add language pack...
+Restart=&Restart Go! ExtractIcons
+OK=&OK
+
+[frmIconMerge]
+Text=Icon merge...
+
+[frmIconMergeMenuBarButtons]
+File=File
+Edit=Edit
+
+[frmIconMergeMenuBarFileButtons]
+NewIcon=New icon...
+OpenIcon=Open icon...
+CloseIcon=Close icon...
+SaveIcon=Save icon...
+SaveIconAs=Save icon as...
+Close=Close
+
+[frmIconMergeMenuBarEditButtons]
+AddNewIcon=Add new icon...
+RemoveSelectedIcon=Remove selected icon...

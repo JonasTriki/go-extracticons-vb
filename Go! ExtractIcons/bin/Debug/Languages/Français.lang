@@ -1,0 +1,345 @@
+[IsGoExtractIconsLangFile]
+TrueOrFalse=True
+
+[Errors]
+IndexShoudBeInRange=L'index doit être dans la portée (0-
+NoIconsInTheList=Aucune icône dans cette liste.
+TheFileDoesNotExistOrIsEmpty=Le fichier n'existe pas ou est vide.
+TheFileDoesNotExist=Le fichier n'existe pas.
+TheFile=Le fichier
+IsNotAnValidWin32ExecutableOrDLL=n'est pas un executable win32 ou DLL valide.
+AnUnexpectedErrorHasArrived=Une erreur inattendue s'est produite.
+TheIconsToTheFileIsNotAvailableYouCantExtractIconsFromThisFile=>Les icônes de ce fichiers sont indisponibles. Vous ne pouvez pas extraire d'icônes de ce fichier.
+TheIconsListShoudContainAtLeastOneIcon=La liste d'îcones doit contenir au moins une icône!
+TheIconIsEmpty=L'icône est vide.
+
+[MessageBoxCommands]
+DoNotShowThisMessageBoxAgain=Ne plus jamais montrer ce message.
+OK=&OK
+Cancel=&Annuler
+Yes=&Oui
+No=&Non
+Help=&Aide
+Retry=&Réessayer
+Save=&Enregistrer
+DoNotSave=&Ne pas enregistrer
+
+[SomeCommands]
+Of=de
+ExtractingIconsFromFile=Extraction d'icônes du fichier...
+ExtractingIconsFrom=Extraction d'icônes de
+LookingForIconsInTheFolder=Recherche d'icônes dans le dossier
+IconsFound=icônes trouvées!
+IconFound=icône trouvée!
+Copyright=Copyright © 2009 - 2010 Go! Visual Team™. Tous droits réservés.
+MoreThanOneIconIsSelected=Plus d'une icône est selectionée...
+NoIconsInIconList=Aucune icône dans la liste d'icônes...
+Byte=octect(s)
+YB=Yo
+ZB=Zo
+EB=Eo
+PB=Po
+TB=To
+GB=Go
+MB=Mo
+KB=ko
+Name=Nom: 
+ID=ID:
+_Icons=Icônes:
+FileName=Nom du fichier:
+FileSize=Taille du fichier
+IconsInFile=Icônes dans le fichier:
+CompleteFileName=Nom du fichier complet:
+AreYouSureYouWannaRestartGoExtractIcons=Êtes-vous sûr de vouloir redémarrer Go! ExtractIcons?
+AreYouSureYouWannaRemoveTheSelectedIconFromTheList=Êtes-vous sûr de vouloir enlever l'icône selectionnée de la liste?
+TheIconIsTooBigToBeViewed=L'icône est trop grosse pour être vue...
+NewI=Nouvelle icône...
+AddNewIcon=Ajouter une nouvelle icône...
+OpenIcon=Ouvrir une icône...
+SaveIconAs=Enregistrer l'icône sous...
+SaveI=Enregistrer l'icône...
+IconSize=Taille de l'icône:
+Colors=Couleurs:
+ColorDepth=Profondeur des couleurs:
+ISize=Taille:
+IconMerge=Fusionneur d'icônes...
+Icons=Icône
+NoIcon=Aucune icône...
+BPP=bpp
+EmptyIcon=L'icône est vide...
+AreYouSureThatYouWannaDeleteThisLanguagePackPermanently=Êtes vous sûr de vouloir effacer ce paquet de langue de façon définitive?
+LANGFiles=Fichiers LANG
+PleaseChooseALanguagePack=Veuillez selectionner un paquet de langue...
+Total=Total
+Icons=icône(s)
+IsSaved=est sauvegardé
+PleaseChooseAnIcon=Veuillez choisir une icône...
+ExecutableFiles=Fichiers executables
+AllFiles=Tous les fichiers
+PleaseChooseAFile=Veuillez selectionner un fichier...
+PleaseChooseAFolder=Veuillez selectionner un dossier...
+LoadingProcesses=Chargement des processus
+Error=Erreur!
+NoMatch=Pas de correspondance trouvée!
+Success=Succès!
+GoExtractIconsWillNotStartWhenWindowsStarts=Go! ExtractIcons ne va pas démarrer avec Windows!
+GoExtractIconsWillStartWhenWindowsStarts=Go! ExtractIcons va démarrer avec Windows!
+GoExtractIconsIsMinimizedToTheSystemFieldToMaximizeTheApplicationAgainClickTheBubble=Go! ExtractIcons est réduit à barre d'état système, pour agrandir l'application, cliquez la bulle...
+
+[MenuBarButtons]
+File=Fichier
+Edit=Édition
+View=Affichage
+Tools=Outils
+Help=Aide
+
+[MenuBarFileButtons]
+SearchIconsInWebsite=Rechercher des icônes dans le web...
+SearchIcons=Rechercher des icônes...
+SaveIcons=Sauvegarder des icônes...
+FileProperties=Propriétés du fichier
+Properties=Propriétés
+Exit=Quitter
+
+[MenuBarEditButtons]
+CopySelectedIcon=Copier l'icône selectionnée
+SelectAllIcons=Selectionner toutes les icônes
+DeSelectAll=Déselectionner tout
+Search=Rechercher...
+
+[MenuBarViewButtons]
+IconView=Affichage des icônes
+BigIcons=Miniatures
+SmallIcons=Petites icônes
+BigIconsWithDetails=Mosaïque
+List=Liste
+Details=Détails
+IconTree=Arbre d'icônes
+MenuBar=Barre de menus
+StatusBar=Barre d'état
+
+[MenuBarToolsButtons]
+Options=Options...
+OpenIconMerge=Ouvrir le fusionneur d'icônes...
+
+[MenuBarHelpButtons]
+StartGoExtractIconsWhenWindowsStarts=Démarrer Go! ExtractIcons avec Windows
+CheckForUpdates=Rechercher les mises à jour...
+RestartGoExtractIcons=Redémarrer Go! ExtractIcons
+AboutGoExtractIcons=À propos de Go! ExtractIcons
+
+[Backward]
+ToolTipTitle=Aller une icône en arrière
+ToolTipText=(Ctrl+Flèche gauche)
+
+[Forward]
+ToolTipTitle=Aller une icône en avant
+ToolTipText=(Ctrl+Flèche droite)
+
+[FileInfo]
+ToolTipTitle=Propriétés de l'icône...
+ToolTipText=(Alt+Enter)
+
+[SearchIcons]
+ToolTipTitle=Rechercher des icônes...
+ToolTipText=(Ctrl+Maj+S)
+
+[SaveIcons]
+ToolTipTitle=Sauvegarder les icône(s) vers...
+ToolTipText=(Ctrl+S)
+
+[SearchBox]
+WatermarkText=Rechercher...
+
+[SearchAfterIcon]
+ToolTipTitle=Rechercher
+ToolTipText=("")
+
+[FileBtn]
+Text=Fichier
+
+[FileBtnContextMenuBarButtons]
+File=Fichier
+Edit=Édition
+View=Affichage
+Tools=Outils
+Help=Aide
+SearchIcons=Rechercher des icônes...
+Options=Options...
+OpenIconMerge=Ouvrir le fusionneur d'icônes...
+ShowMenuBar=Afficher la barre de menus
+Exit=Quitter
+
+[FileBtnContextMenuBarFileButtons]
+SearchIcons=Rechercher des icônes...
+SaveIcons=Sauvegarder des icônes...
+FileProperties=Propriétés du fichier
+Properties=Propriétés
+Exit=Quitter
+
+[FileBtnContextMenuBarEditButtons]
+CopySelectedIcon=Copier l'icône selectionnée
+SelectAllIcons=Selectionner toutes les icônes
+DeSelectAll=Déselectionner tout
+Search=Rechercher...
+
+[FileBtnContextMenuBarViewButtons]
+IconView=Affichage des icônes
+BigIcons=Miniatures
+SmallIcons=Petites icônes
+BigIconsWithDetails=Mosaïque
+List=Liste
+Details=Détails
+IconTree=Arbre d'icônes
+MenuBar=Barre de menus
+StatusBar=Barre d'état
+
+[FileBtnContextMenuBarToolsButtons]
+Options=Options...
+OpenIconMerge=Ouvrir le fusionneur d'icônes...
+
+[FileBtnContextMenuBarHelpButtons]
+StartGoExtractIconsWhenWindowsStarts=Démarrer Go! ExtractIcons avec Windows
+CheckForUpdates=Rechercher les mises à jour...
+RestartGoExtractIcons=Redémarrer Go! ExtractIcons
+AboutGoExtractIcons=À propos de Go! ExtractIcons
+
+[IconTreeView]
+SearchedFolders=Dossiers recherchés
+SearchedFiles=Fichiers recherchés
+
+[IconTreeViewContextMenuBarButtons]
+OpenPropertiesForIcon=Ouvrir les propriétés de l'icône...
+OpenPropertiesForFile=Ouvrir les propriétés du fichier...
+SearchIcons=Rechercher des icônes...
+SaveIconTo=Sauvegarder les icônes dans...
+CopySelectedIcon=Copier l'icône selectionnée
+Search=Rechercher...
+
+[IconListView]
+Name=Nom
+ID=ID
+IconSize=Taille de l'icône
+Icons=Icônes
+FileName=Nom du fichier
+FileSize=Taille du fichier
+TotalIcons=Icônes dans le fichier
+CompleteFileName=Nom du fichier complet
+
+[SearchBoxContextMenuBarButtons]
+Undo=Annuler
+ClearUndo=Défaire annuler
+Copy=Copier
+Paste=Coller
+PasteAndSearch=Coller et rechercher...
+Cut=Couper
+SelectAll=Tout selectionner
+DeSelectAll=Tout déselectionner
+Delete=Effacer
+ClearAll=Déselectionner tout
+
+[IconListViewContextMenuBarButtons]
+OpenPropertiesForIcon=Ouvrir les propriétés de l'icône...
+OpenPropertiesForFile=Ouvrir les propriétés du fichier...
+SearchIcons=Rechercher des icônes...
+SaveIcons=Sauvegarder les icônes...
+CopySelectedIcon=Copier l'icône selectionnée
+SelectAllIcons=Selectionner toutes les icônes
+DeSelectAll=Déselectionner tout
+Search=Rechercher...
+
+[SystemIconContextMenuBarButtons]
+Minimize=Réduire
+Maximize=Agrandir
+SearchIcons=Rechercher...
+CheckForUpdates=Rechercher des mises à jour...
+RestartGoExtractIcons=Redémarrer Go! ExtractIcons
+AboutGoExtractIcons=À propos de Go! ExtractIcons
+Exit=Quitter
+
+[frmAbout]
+Text=À propos de Go! ExtractIcons
+
+[frmAboutControls]
+ThisProgramIsMadeByGoVisualTeamForMoreInformationPleaseVisitOurSite=Ce logiciel à été crée par Go! Visual Team.&NEWLINE&Pour plus d'informations, veuillez visiter notre site internet.
+
+[frmOpenIcons]
+Text=Rechercher des icônes...
+
+[frmOpenIconsControls]
+Basics=Général
+LoadProcessesAgain=Reload processes...
+OpenFolder=Ouvrir le dossier
+SearchIconsInFiles=Rechercher des icônes dans des fichiers
+SearchInSubFolders=Rechercher dans des sous-dossiers
+ChooseFolder=Choisir dossier
+ChooseFile=Choisir fichier
+SearchIconsInTheSeletedProcess=Rechercher des icônes dans le processus:
+Name=Nom: 
+Size=Taille: 
+ChooseAProgram=Choisir un programme...
+SearchIcons=Rechercher des icônes...
+Close=Fermer
+
+[frmViewIcons]
+Text=Propriétés pour 
+
+[frmViewIconsControls]
+Basics=Général
+Filename=Nom du fichier
+IconID=ID de l'icône
+ID=ID
+Size=Taille
+ColorDepth=Profondeur des couleurs
+Dimensions=Dimensions
+Colors=Couleurs
+Preview=Prévisualisation
+CopyIcon=Copier l'icône
+SaveIconsTo=Sauvegarder les icône(s) vers...
+Close=Fermer
+
+[frmSaveIcons]
+Text=Sauvegarder les icône(s) vers...
+
+[frmSaveIconsControls]
+FDD=Veuillez choisir un dossier où sauvegarder les icônes...
+SaveIconsToFolder=Sauvegarder les icônes dans: 
+SaveIcons=Sauvergarder les icônes...
+Close=Fermer
+
+[frmOptions]
+Text=Options...
+
+[frmOptionsControls]
+RestartGoExtractIconsForThisChangeToTakeEffect=Redémarrer Go! ExtractIcons pour que ce changement prenne effet.
+Basics=Général
+StartUp=Démarrer:
+SearchIcons=Rechercher des icônes..
+DoNothing=Ne rien faire...
+MessageBoxes=Boîtes de dialogue:
+ShowRestartMessageBox=Montrer au démarrage de Go! ExtractIcons...
+ShowRemoveSelectedIconMessageBox=Montrer quand on supprime des icônes dans le fusionneur d'icônes...
+Language=Langue:
+RemoveLangPack=&Enlever le paquet de langue
+AddLangPack=&Ajouter un paquet de langue
+Restart=&Redémarrer Go! ExtractIcons
+OK=&OK
+
+[frmIconMerge]
+Text=Fusionneur d'icônes...
+
+[frmIconMergeMenuBarButtons]
+File=Fichier
+Edit=Édition
+
+[frmIconMergeMenuBarFileButtons]
+NewIcon=Nouvelle icône...
+OpenIcon=Ouvrir icône...
+CloseIcon=Fermer l'icône...
+SaveIcon=Savegarder l'icône...
+SaveIconAs=Sauvegarder l'icône sous...
+Close=Fermer
+
+[frmIconMergeMenuBarEditButtons]
+AddNewIcon=Ajouter une nouvelle icône...
+RemoveSelectedIcon=Enlever l'icône selectionnée...

@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39E4876A-E80C-44D8-8C40-5296F3344C50}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Go__ExtractIcons.My.MyApplication</StartupObject>
+    <RootNamespace>Go__ExtractIcons</RootNamespace>
+    <AssemblyName>Go! ExtractIcons</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Go! ExtractIcons.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Go! ExtractIcons.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>EI_Icons.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GoExtractIcons.Components">
+      <HintPath>..\..\GoExtractIcons.Components\GoExtractIcons.Components\bin\x86\Debug\GoExtractIcons.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\CustomBtn.Designer.vb">
+      <DependentUpon>CustomBtn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\CustomBtn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\ExtendedBinaryReader.vb" />
+    <Compile Include="Components\FileInfos.vb" />
+    <Compile Include="Components\FTPClient\FtpClient.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlAttribute.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlDocument.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlElement.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlEncoder.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlNode.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlNodes.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlParser.vb" />
+    <Compile Include="Components\Getters\HTML\HtmlText.vb" />
+    <Compile Include="Components\GoGroupBox\GoGroupBox.Designer.vb">
+      <DependentUpon>GoGroupBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\GoGroupBox\GoGroupBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\GoIconBox\GoIconBox.Designer.vb">
+      <DependentUpon>GoIconBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\GoIconBox\GoIconBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\GoTextBox\GoTextBox.Designer.vb">
+      <DependentUpon>GoTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\GoTextBox\GoTextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\GrayScaleConverter\GrayScaleConverter.vb" />
+    <Compile Include="Components\IconFactory\CursorExtractor.vb" />
+    <Compile Include="Components\IconFactory\IconExceptions.vb" />
+    <Compile Include="Components\Structures.vb" />
+    <Compile Include="Components\GoBtn\GoBtn.Designer.vb">
+      <DependentUpon>GoBtn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\GoBtn\GoBtn.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\Getters\FaviconAndTitleGetter.vb" />
+    <Compile Include="Components\Getters\IconGetter.vb" />
+    <Compile Include="Components\GoManager\GoManager.Designer.vb">
+      <DependentUpon>GoManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\GoManager\GoManager.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\GoManager\GoRender\GoColorTable.vb" />
+    <Compile Include="Components\GoManager\GoRender\GoHelpers.vb" />
+    <Compile Include="Components\GoManager\GoRender\GoRenderer.vb" />
+    <Compile Include="Components\IconConvert\IconConverter.vb" />
+    <Compile Include="Components\IconConvert\IconFile.vb" />
+    <Compile Include="Components\IconConvert\IconImageCollection.vb" />
+    <Compile Include="Components\IconEncoder\BitmapHolder.vb" />
+    <Compile Include="Components\IconEncoder\Converter.vb" />
+    <Compile Include="Components\IconEncoder\IconHolder.vb" />
+    <Compile Include="Components\IconEncoder\ImageStructs.vb" />
+    <Compile Include="Components\MultiLineListBox\MultiItem.Designer.vb">
+      <DependentUpon>MultiItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\MultiLineListBox\MultiItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\MultiLineListBox\MultiListBox.Designer.vb">
+      <DependentUpon>MultiListBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\MultiLineListBox\MultiListBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\SystemFileProperties\SystemFileProperties.vb" />
+    <Compile Include="Components\TreeNodes.vb" />
+    <Compile Include="Forms\Dialogs\frmPreviewIcon.Designer.vb">
+      <DependentUpon>frmPreviewIcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmPreviewIcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmRenameName.Designer.vb">
+      <DependentUpon>frmRenameName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmRenameName.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCheckForUpdates.Designer.vb">
+      <DependentUpon>frmCheckForUpdates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCheckForUpdates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmFileAlreadyExists.Designer.vb">
+      <DependentUpon>frmFileAlreadyExists.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmFileAlreadyExists.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIconColorDepthChangerFromIcon.Designer.vb">
+      <DependentUpon>frmIconColorDepthChangerFromIcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIconColorDepthChangerFromIcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmSearchIconsInWebsite.Designer.vb">
+      <DependentUpon>frmSearchIconsInWebsite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmSearchIconsInWebsite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IconMerge\frmIconMerge.Designer.vb">
+      <DependentUpon>frmIconMerge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IconMerge\frmIconMerge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IconMerge\IconItem.Designer.vb">
+      <DependentUpon>IconItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\IconMerge\IconItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\IconFactory\IconDir.vb" />
+    <Compile Include="Components\IconFactory\IconExtractor.vb" />
+    <Compile Include="Components\IconFactory\IconHelper.vb" />
+    <Compile Include="Components\IconFactory\IconInfo.vb" />
+    <Compile Include="Components\ResourceNames.vb" />
+    <Compile Include="Components\Utility.vb" />
+    <Compile Include="Components\Win32.vb" />
+    <Compile Include="Components\InfoBar\InfoBar.Designer.vb">
+      <DependentUpon>InfoBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\InfoBar\InfoBar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\IniFile\IniFile.Designer.vb">
+      <DependentUpon>IniFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\IniFile\IniFile.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\MessageBox\frmMessageBox.Designer.vb">
+      <DependentUpon>frmMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\MessageBox\frmMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\MessageBox\MessageBox.Designer.vb">
+      <DependentUpon>MessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Components\MessageBox\MessageBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\Shell32.vb" />
+    <Compile Include="Forms\frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOpenIcons.Designer.vb">
+      <DependentUpon>frmOpenIcons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOpenIcons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOptions.Designer.vb">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmSaveIcons.Designer.vb">
+      <DependentUpon>frmSaveIcons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmSaveIcons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmViewIcons.Designer.vb">
+      <DependentUpon>frmViewIcons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmViewIcons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Components\CustomBtn.resx">
+      <DependentUpon>CustomBtn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\GoBtn\GoBtn.resx">
+      <DependentUpon>GoBtn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\GoGroupBox\GoGroupBox.resx">
+      <DependentUpon>GoGroupBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\GoIconBox\GoIconBox.resx">
+      <DependentUpon>GoIconBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\GoTextBox\GoTextBox.resx">
+      <DependentUpon>GoTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\MultiLineListBox\MultiItem.resx">
+      <DependentUpon>MultiItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\MultiLineListBox\MultiListBox.resx">
+      <DependentUpon>MultiListBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\frmFileAlreadyExists.resx">
+      <DependentUpon>frmFileAlreadyExists.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\frmPreviewIcon.resx">
+      <DependentUpon>frmPreviewIcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\frmRenameName.resx">
+      <DependentUpon>frmRenameName.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCheckForUpdates.resx">
+      <DependentUpon>frmCheckForUpdates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIconColorDepthChangerFromIcon.resx">
+      <DependentUpon>frmIconColorDepthChangerFromIcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmSearchIconsInWebsite.resx">
+      <DependentUpon>frmSearchIconsInWebsite.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IconMerge\frmIconMerge.resx">
+      <DependentUpon>frmIconMerge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IconMerge\IconItem.resx">
+      <DependentUpon>IconItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\InfoBar\InfoBar.resx">
+      <DependentUpon>InfoBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\MessageBox\frmMessageBox.resx">
+      <DependentUpon>frmMessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOpenIcons.resx">
+      <DependentUpon>frmOpenIcons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOptions.resx">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\frmSaveIcons.resx">
+      <DependentUpon>frmSaveIcons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmViewIcons.resx">
+      <DependentUpon>frmViewIcons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Program_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ini_File.png" />
+    <None Include="Resources\menu_info.png" />
+    <None Include="Resources\Information_Bar.wav" />
+    <None Include="Resources\Close_Pressed.png" />
+    <None Include="Resources\Close_Hover.png" />
+    <None Include="Resources\Close_Disabled.png" />
+    <None Include="Resources\Close.png" />
+    <None Include="Resources\Information_sound.wav" />
+    <None Include="Resources\Help_sound.wav" />
+    <None Include="Resources\Exlamation_sound.wav" />
+    <None Include="Resources\Critical_sound.wav" />
+    <None Include="Resources\Question.png" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\Exlamation.png" />
+    <None Include="Resources\Critical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoBtn_Full_Disabled.png" />
+    <None Include="Resources\GoBtn_Full_Hover.png" />
+    <None Include="Resources\GoBtn_Full_Normal.png" />
+    <None Include="Resources\GoBtn_Full_Pressed.png" />
+    <None Include="Resources\GoBtn_LeftToRight_Disabled.png" />
+    <None Include="Resources\GoBtn_LeftToRight_Hover.png" />
+    <None Include="Resources\GoBtn_LeftToRight_Normal.png" />
+    <None Include="Resources\GoBtn_LeftToRight_Pressed.png" />
+    <None Include="Resources\GoBtn_RightToLeft_Disabled.png" />
+    <None Include="Resources\GoBtn_RightToLeft_Hover.png" />
+    <None Include="Resources\GoBtn_RightToLeft_Normal.png" />
+    <None Include="Resources\GoBtn_RightToLeft_Pressed.png" />
+    <None Include="Resources\GoBtn_Middle_Pressed.png" />
+    <None Include="Resources\GoBtn_Middle_Normal.png" />
+    <None Include="Resources\GoBtn_Middle_Hover.png" />
+    <None Include="Resources\GoBtn_Middle_Disabled.png" />
+    <None Include="Resources\UpdateVersionSuccesfullyLoaded.png" />
+    <None Include="Resources\Clock_9.png" />
+    <None Include="Resources\Clock_8.png" />
+    <None Include="Resources\Clock_7.png" />
+    <None Include="Resources\Clock_6.png" />
+    <None Include="Resources\Clock_5.png" />
+    <None Include="Resources\Clock_4.png" />
+    <None Include="Resources\Clock_3.png" />
+    <None Include="Resources\Clock_2.png" />
+    <None Include="Resources\Clock_16.png" />
+    <None Include="Resources\Clock_15.png" />
+    <None Include="Resources\Clock_14.png" />
+    <None Include="Resources\Clock_13.png" />
+    <None Include="Resources\Clock_12.png" />
+    <None Include="Resources\Clock_11.png" />
+    <None Include="Resources\Clock_10.png" />
+    <None Include="Resources\Clock_1.png" />
+    <None Include="Resources\LANG_Icons.ico" />
+    <None Include="Resources\File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InternetCon.png" />
+    <None Include="Resources\Document_Icon.ico" />
+    <None Include="Resources\InternetConOff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClosedFolder.png" />
+    <None Include="Resources\CustomBtn_Disabled.png" />
+    <None Include="Resources\CustomBtn_Normal.png" />
+    <None Include="Resources\CustomBtn_Pressed.png" />
+    <None Include="Resources\CustomBtn_Hover.png" />
+    <None Include="Resources\Document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EI_Icons.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,2161 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Go!ExtractIcons
+</name>
+</assembly>
+<members>
+<member name="M:Go__ExtractIcons.TreeNodes.GetAllNodes(System.Windows.Forms.TreeNodeCollection,System.Boolean)">
+	<summary>
+ Gets all TreeNodes in a TreeNode.
+ </summary>
+	<param name="Nodes">The TreeNodes to search in.</param>
+	<param name="SearchSubNodes">Search subfolders.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.Html.HtmlDocument.#ctor(System.String,System.Boolean)">
+	<summary>
+ This will create a new document object by parsing the HTML specified.
+ </summary>
+	<param name="html">The HTML to parse.</param>
+</member><member name="P:Go__ExtractIcons.Html.HtmlDocument.Nodes">
+	<summary>
+ This is the collection of nodes used to represent this document.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlDocument.All">
+	<summary>
+ This is the collection of nodes used to represent this document.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlDocument.Create(System.String)">
+	<summary>
+ This will create a new document object by parsing the HTML specified.
+ </summary>
+	<param name="html">The HTML to parse.</param>
+	<returns>An instance of the newly created object.</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlDocument.Create(System.String,System.Boolean)">
+	<summary>
+ This will create a new document object by parsing the HTML specified.
+ </summary>
+	<param name="html">The HTML to parse.</param>
+	<param name="wantSpaces">Set this to true if you want to preserve all whitespace from the input HTML</param>
+	<returns>An instance of the newly created object.</returns>
+</member><member name="P:Go__ExtractIcons.Html.HtmlDocument.HTML">
+	<summary>
+ This will return the HTML used to represent this document.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlDocument.XHTML">
+	<summary>
+ This will return the XHTML document used to represent this document.
+ </summary>
+</member><member name="T:Go__ExtractIcons.Html.HtmlDocument">
+	<summary>
+ This is the basic HTML document object used to represent a sequence of HTML.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoIconBox.BorderSize">
+	<summary>
+ Gets or sets the border size on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoIconBox.BorderColor">
+	<summary>
+ Gets or sets the border color on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoIconBox.IconStyle">
+	<summary>
+ Gets or sets the icon style on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoIconBox.Icon">
+	<summary>
+ Gets or sets the icon on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoIconBox.ShowBorder">
+	<summary>
+ Gets or sets indicating if the border should be showed, or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Go__ExtractIcons.IconFile.m_images">
+	<summary>
+ Stores the images in the icon.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconFile.#ctor">
+	<summary>
+ Initializes a new instance of the IconFile class.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconFile.Images">
+	<summary>
+ Gets the images contained in the icon.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconFile.Save(System.String)">
+	<summary>
+ Saves the icon to a file.
+ </summary>
+	<param name="fileName">Name of file.</param>
+</member><member name="M:Go__ExtractIcons.IconFile.Save(System.IO.Stream)">
+	<summary>
+ Saves the icon to a stream.
+ </summary>
+	<param name="stream">Stream into which icon is saved.</param>
+</member><member name="M:Go__ExtractIcons.IconFile.GetImageData(System.Windows.Media.Imaging.BitmapSource)">
+	<summary>
+ Returns a byte array containing the serialized icon image.
+ </summary>
+	<param name="image">Icon image to serialize.</param>
+	<returns>Serialized icon image.</returns>
+</member><member name="T:Go__ExtractIcons.IconFile">
+	<summary>
+ Represents a Windows icon file.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.SourceIcon">
+	<summary>
+ Gets the source System.Drawing.Icon.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.FileName">
+	<summary>
+ Gets the icon's file name. 
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.Images">
+	<summary>
+ Gets a list System.Drawing.Icon that presents the icon contained images.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.IsMultiIcon">
+	<summary>
+ Get whether the icon contain more than one image or not.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.BestFitIconIndex">
+	<summary>
+ Gets icon index that best fits to screen resolution.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.Width">
+	<summary>
+ Gets icon width.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.Height">
+	<summary>
+ Gets icon height.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.ColorCount">
+	<summary>
+ Gets number of colors in icon (0 if &gt;=8bpp).
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.Planes">
+	<summary>
+ Gets icon color planes.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.BitCount">
+	<summary>
+ Gets icon bits per pixel (0 if 8bpp or less)
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.ColorDepth">
+	<summary>
+ Gets icon bits per pixel.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.IconDir">
+	<summary>
+ Gets the TAFactory.IconPack.IconDir of the icon.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.GroupIconDir">
+	<summary>
+ Gets the TAFactory.IconPack.GroupIconDir of the icon.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.IconDirEntries">
+	<summary>
+ Gets a list of TAFactory.IconPack.IconDirEntry of the icon.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.GroupIconDirEntries">
+	<summary>
+ Gets a list of TAFactory.IconPack.GroupIconDirEntry of the icon.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.RawData">
+	<summary>
+ Gets a list of raw data for each icon image.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconInfo.ResourceRawData">
+	<summary>
+ Gets the icon raw data as a resource data.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconInfo.#ctor(System.Drawing.Icon)">
+	<summary>
+ Intializes a new instance of TAFactory.IconPack.IconInfo which contains the information about the givin icon.
+ </summary>
+	<param name="icon">A System.Drawing.Icon object to retrieve the information about.</param>
+</member><member name="M:Go__ExtractIcons.IconInfo.#ctor(System.String)">
+	<summary>
+ Intializes a new instance of TAFactory.IconPack.IconInfo which contains the information about the icon in the givin file.
+ </summary>
+	<param name="FileName">A fully qualified name of the icon file, it can contain environment variables.</param>
+</member><member name="M:Go__ExtractIcons.IconInfo.GetBestFitIconIndex">
+	<summary>
+ Gets the index of the icon that best fits the current display device.
+ </summary>
+	<returns>The icon index.</returns>
+</member><member name="M:Go__ExtractIcons.IconInfo.GetBestFitIconIndex(System.Drawing.Size)">
+	<summary>
+ Gets the index of the icon that best fits the current display device.
+ </summary>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<returns>The icon index.</returns>
+</member><member name="M:Go__ExtractIcons.IconInfo.GetBestFitIconIndex(System.Drawing.Size,System.Boolean)">
+	<summary>
+ Gets the index of the icon that best fits the current display device.
+ </summary>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<param name="isMonochrome">Specifies whether to get the monochrome icon or the colored one.</param>
+	<returns>The icon index.</returns>
+</member><member name="M:Go__ExtractIcons.IconInfo.LoadIconInfo(System.Drawing.Icon)">
+	<summary>
+ Loads the icon information from the givin icon into class members.
+ </summary>
+	<param name="icon">A System.Drawing.Icon object to retrieve the information about.</param>
+</member><member name="M:Go__ExtractIcons.IconInfo.GetIconResourceData">
+	<summary>
+ Returns the icon's raw data as a resource data.
+ </summary>
+	<returns>The icon's raw as a resource data.</returns>
+</member><member name="T:Go__ExtractIcons.IconInfo">
+	<summary>
+ Provides information about a givin icon.
+ This class cannot be inherited.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlAttribute.#ctor(System.String,System.String)">
+	<summary>
+ This constructs an HtmlAttribute object with the given name and value. For wierd
+ HTML attributes that don't have a value (e.g. "NOWRAP"), specify null as the value.
+ </summary>
+	<param name="name">The name of the attribute</param>
+	<param name="value">The value of the attribute</param>
+</member><member name="P:Go__ExtractIcons.Html.HtmlAttribute.Name">
+	<summary>
+ The name of the attribute. e.g. WIDTH
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlAttribute.Value">
+	<summary>
+ The value of the attribute. e.g. 100%
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlAttribute.ToString">
+	<summary>
+ This will return an HTML-formatted version of this attribute. NB. This is
+ not SGML or XHTML safe, as it caters for null-value attributes such as "NOWRAP".
+ </summary>
+	<returns></returns>
+</member><member name="T:Go__ExtractIcons.Html.HtmlAttribute">
+	<summary>
+ The HtmlAttribute object represents a named value associated with an HtmlElement.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlAttributeCollection.#ctor(Go__ExtractIcons.Html.HtmlElement)">
+	<summary>
+ This will create an empty collection of attributes.
+ </summary>
+	<param name="element"></param>
+</member><member name="M:Go__ExtractIcons.Html.HtmlAttributeCollection.Add(Go__ExtractIcons.Html.HtmlAttribute)">
+	<summary>
+ This will add an element to the collection.
+ </summary>
+	<param name="attribute">The attribute to add.</param>
+	<returns>The index at which it was added.</returns>
+</member><member name="P:Go__ExtractIcons.Html.HtmlAttributeCollection.Item(System.Int32)">
+	<summary>
+ This provides direct access to an attribute in the collection by its index.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlAttributeCollection.FindByName(System.String)">
+	<summary>
+ This will search the collection for the named attribute. If it is not found, this
+ will return null.
+ </summary>
+	<param name="name">The name of the attribute to find.</param>
+	<returns>The attribute, or null if it wasn't found.</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlAttributeCollection.IndexOf(System.String)">
+	<summary>
+ This will return the index of the attribute with the specified name. If it is
+ not found, this method will return -1.
+ </summary>
+	<param name="name">The name of the attribute to find.</param>
+	<returns>The zero-based index, or -1.</returns>
+</member><member name="P:Go__ExtractIcons.Html.HtmlAttributeCollection.Item(System.String)">
+	<summary>
+ This overload allows you to have direct access to an attribute by providing
+ its name. If the attribute does not exist, null is returned.
+ </summary>
+</member><member name="T:Go__ExtractIcons.Html.HtmlAttributeCollection">
+	<summary>
+ This is a collection of attributes. Typically, this is associated with a particular
+ element. This collection is searchable by both the index and the name of the attribute.
+ </summary>
+</member><member name="T:Go__ExtractIcons.Html.HtmlParser.ParseStatus">
+	<summary>
+ Internal FSM to represent the state of the parser
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.#ctor">
+	<summary>
+ This constructs a new parser. Even though this object is currently stateless,
+ in the future, parameters coping for tollerance and SGML (etc.) will be passed.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlParser.RemoveEmptyElementText">
+	<summary>
+ The default mechanism will extract a pure DOM tree, which will contain many text
+ nodes containing just whitespace (carriage returns etc.) However, with normal
+ parsing, these are useless and only serve to complicate matters. Therefore, this
+ option exists to automatically remove those empty text nodes.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.Parse(System.String)">
+	<summary>
+ This will parse a string containing HTML and will produce a domain tree.
+ </summary>
+	<param name="html">The HTML to be parsed</param>
+	<returns>A tree representing the elements</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.MoveNodesDown(Go__ExtractIcons.Html.HtmlNodeCollection@,System.Int32,Go__ExtractIcons.Html.HtmlElement)">
+	<summary>
+ This will move all the nodes from the specified index to the new parent.
+ </summary>
+	<param name="nodes">The collection of nodes</param>
+	<param name="node_index">The index of the first node (in the above collection) to move</param>
+	<param name="new_parent">The node which will become the parent of the moved nodes</param>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.FindTagOpenNodeIndex(Go__ExtractIcons.Html.HtmlNodeCollection,System.String)">
+	<summary>
+ This will find the corresponding opening tag for the named one. This is identified as
+ the most recently read node with the same name, but with no child nodes.
+ </summary>
+	<param name="nodes">The collection of nodes</param>
+	<param name="name">The name of the tag</param>
+	<returns>The index of the opening tag, or -1 if it was not found</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.RemoveWhitespace(System.String)">
+	<summary>
+ This will remove redundant whitespace from the string
+ </summary>
+	<param name="input"></param>
+	<returns></returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.RemoveComments(System.String)">
+	<summary>
+ This will remove all HTML comments from the input string. This will
+ not remove comment markers from inside tag attribute values.
+ </summary>
+	<param name="input">Input HTML containing comments</param>
+	<returns>HTML containing no comments</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.RemoveSGMLComments(System.String)">
+	<summary>
+ This will remove all HTML comments from the input string. This will
+ not remove comment markers from inside tag attribute values.
+ </summary>
+	<param name="input">Input HTML containing comments</param>
+	<returns>HTML containing no comments</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.PreprocessScript(System.String,System.String)">
+	<summary>
+ This will encode the scripts within the page so they get passed through the
+ parser properly. This is due to some people using comments protect the script
+ and others who don't. It also takes care of issues where the script itself has
+ HTML comments in (in strings, for example).
+ </summary>
+	<param name="input">The HTML to examine</param>
+	<returns>The HTML with the scripts marked up differently</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlParser.GetTokens(System.String)">
+	<summary>
+ This will tokenise the HTML input string.
+ </summary>
+	<param name="input"></param>
+	<returns></returns>
+</member><member name="T:Go__ExtractIcons.Html.HtmlParser">
+	<summary>
+ This is the main HTML parser class. I recommend you don't play around too much in here
+ as it's a little fiddly.
+ 
+ Bascially, this class will build a tree containing HtmlNode elements.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlText.#ctor(System.String)">
+	<summary>
+ This constructs a new node with the given text content.
+ </summary>
+	<param name="text"></param>
+</member><member name="P:Go__ExtractIcons.Html.HtmlText.Text">
+	<summary>
+ This is the text associated with this node.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlText.ToString">
+	<summary>
+ This will return the text for outputting inside an HTML document.
+ </summary>
+	<returns></returns>
+</member><member name="P:Go__ExtractIcons.Html.HtmlText.HTML">
+	<summary>
+ This will return the HTML to represent this text object.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlText.XHTML">
+	<summary>
+ This will return the XHTML to represent this text object.
+ </summary>
+</member><member name="T:Go__ExtractIcons.Html.HtmlText">
+	<summary>
+ The HtmlText node represents a simple piece of text from the document.
+ </summary>
+</member><member name="M:Go__ExtractIcons.GoColorTable.#ctor">
+	<summary>
+ Initialize a new instance of the GoRenderColorTable class.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ButtonPressedGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used when the button is pressed down.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ButtonPressedGradientEnd">
+	<summary>
+ Gets the end color of the gradient used when the button is pressed down.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ButtonPressedGradientMiddle">
+	<summary>
+ Gets the middle color of the gradient used when the button is pressed down.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ButtonSelectedGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used when the button is selected.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ButtonSelectedGradientEnd">
+	<summary>
+ Gets the end color of the gradient used when the button is selected.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ButtonSelectedGradientMiddle">
+	<summary>
+ Gets the middle color of the gradient used when the button is selected.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ButtonSelectedHighlightBorder">
+	<summary>
+ Gets the border color to use with ButtonSelectedHighlight.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.CheckBackground">
+	<summary>
+ Gets the solid color to use when the check box is selected and gradients are being used.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.GripDark">
+	<summary>
+ Gets the color to use for shadow effects on the grip or move handle.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.GripLight">
+	<summary>
+ Gets the color to use for highlight effects on the grip or move handle.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ImageMarginGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used in the image margin of a ToolStripDropDownMenu.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuBorder">
+	<summary>
+ Gets the border color or a MenuStrip.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuItemPressedGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used when a top-level ToolStripMenuItem is pressed down.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuItemPressedGradientEnd">
+	<summary>
+ Gets the end color of the gradient used when a top-level ToolStripMenuItem is pressed down.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuItemPressedGradientMiddle">
+	<summary>
+ Gets the middle color of the gradient used when a top-level ToolStripMenuItem is pressed down.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuItemSelectedGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used when the ToolStripMenuItem is selected.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuItemSelectedGradientEnd">
+	<summary>
+ Gets the end color of the gradient used when the ToolStripMenuItem is selected.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuStripGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used in the MenuStrip.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.MenuStripGradientEnd">
+	<summary>
+ Gets the end color of the gradient used in the MenuStrip.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.OverflowButtonGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used in the ToolStripOverflowButton.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.OverflowButtonGradientEnd">
+	<summary>
+ Gets the end color of the gradient used in the ToolStripOverflowButton.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.OverflowButtonGradientMiddle">
+	<summary>
+ Gets the middle color of the gradient used in the ToolStripOverflowButton.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.RaftingContainerGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used in the ToolStripContainer.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.RaftingContainerGradientEnd">
+	<summary>
+ Gets the end color of the gradient used in the ToolStripContainer.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.SeparatorDark">
+	<summary>
+ Gets the color to use to for shadow effects on the ToolStripSeparator.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.SeparatorLight">
+	<summary>
+ Gets the color to use to for highlight effects on the ToolStripSeparator.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.StatusStripGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used on the StatusStrip.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.StatusStripGradientEnd">
+	<summary>
+ Gets the end color of the gradient used on the StatusStrip.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripBorder">
+	<summary>
+ Gets the border color to use on the bottom edge of the ToolStrip.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripContentPanelGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used in the ToolStripContentPanel.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripContentPanelGradientEnd">
+	<summary>
+ Gets the end color of the gradient used in the ToolStripContentPanel.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripDropDownBackground">
+	<summary>
+ Gets the solid background color of the ToolStripDropDown.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used in the ToolStrip background.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripGradientEnd">
+	<summary>
+ Gets the end color of the gradient used in the ToolStrip background.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripGradientMiddle">
+	<summary>
+ Gets the middle color of the gradient used in the ToolStrip background.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripPanelGradientBegin">
+	<summary>
+ Gets the starting color of the gradient used in the ToolStripPanel.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoColorTable.ToolStripPanelGradientEnd">
+	<summary>
+ Gets the end color of the gradient used in the ToolStripPanel.
+ </summary>
+</member><member name="T:Go__ExtractIcons.GoColorTable">
+	<summary>
+ Provide GoRender colors
+ </summary>
+</member><member name="P:Go__ExtractIcons.MultiItem.View">
+	<summary>
+ Gets or sets the view to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.HideSelection">
+	<summary>
+ Removes highlighting from the control when the control does not have focus.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.Title">
+	<summary>
+ Gets or sets the title on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.ExtraTitle">
+	<summary>
+ Gets or sets the extra title on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.Text">
+	<summary>
+ Gets or sets the text on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.TitleFont">
+	<summary>
+ Gets or sets the font on the title.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.ExtraTitleFont">
+	<summary>
+ Gets or sets the font on the extra title.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.TextFont">
+	<summary>
+ Gets or sets the font on the text.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.TitleTextAlgin">
+	<summary>
+ Gets or sets the textalgin on the title.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.ExtraTitleTextAlgin">
+	<summary>
+ Gets or sets the textalgin on the extra title.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.TextTextAlgin">
+	<summary>
+ Gets or sets the textalgin on the text.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.ContextMenuStrip">
+	<summary>
+ Gets or sets the contextmenustrip on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.Selected">
+	<summary>
+ Return's the controls selected state.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.Hover">
+	<summary>
+ Return's the controls hover state.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.Icon">
+	<summary>
+ Gets or sets the icon on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.FontBoldOnSelect">
+	<summary>
+ Gets or sets indicating if the control is going have bold font on select.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.FontUnderLineOnHover">
+	<summary>
+ Gets or sets indicating if the control is going have underline font on hover.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.DisabledLineColor">
+	<summary>
+ Gets or sets the disabled linecolor to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiItem.SelectedLineColor">
+	<summary>
+ Gets or sets the selected linecolor to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.MessageBox.#ctor(System.String,Go__ExtractIcons.MessageBox.MessageButtons,Go__ExtractIcons.MessageBox.MessageIcons,System.String,System.Drawing.Icon,System.Boolean,System.Boolean)">
+	<summary>
+ Creates a new MessageBox.
+ </summary>
+	<param name="Message">The message to show.</param>
+	<param name="MessageButton">The button style.</param>
+	<param name="MessageIcon">The icon to show.</param>
+	<param name="Title">The title.</param>
+	<param name="Icon">The icon to the form.</param>
+	<param name="IsDoNotShowAgainCheckBoxChecked"></param>
+	<param name="ShowDoNotShowAgainCheckBox"></param>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MessageBox.Message">
+	<summary>
+ Gets or sets the MessageBoxText.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MessageBox.MessageTitle">
+	<summary>
+ Gets or sets the MessageTitle.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MessageBox.MessageBoxIcon">
+	<summary>
+ Gets or sets the MessageBoxIcon.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MessageBox.MessageIcon">
+	<summary>
+ Gets or sets the MessageIcon.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MessageBox.MessageButton">
+	<summary>
+ Gets or sets the MessageButton.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MessageBox.ShowDoNotShowAgainCheckBox">
+	<summary>
+ Gets or sets indicating if the DoNotShowAgainCheckBox is visible.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MessageBox.IsDoNotShowAgainCheckBoxChecked">
+	<summary>
+ Gets the result of the DoNotShowAgainCheckBox.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.MessageBox.ShowDialog">
+	<summary>
+ Show's the MessageBoxDialog.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Go__ExtractIcons.Html.HtmlEncoder">
+	<summary>
+ HTML 5 Entity coding routines
+ Added HTML 5 encoding by Jonas...
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNode.#ctor">
+	<summary>
+ This constructor is used by the subclasses.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.Parent">
+	<summary>
+ This will return the parent of this node, or null if there is none.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.Next">
+	<summary>
+ This will return the next sibling node. If this is the last one, it will return null.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.Previous">
+	<summary>
+ This will return the previous sibling node. If this is the first one, it will return null.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.FirstChild">
+	<summary>
+ This will return the first child node. If there are no children, this
+ will return null.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.LastChild">
+	<summary>
+ This will return the last child node. If there are no children, this
+ will return null.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.Index">
+	<summary>
+ This will return the index position within the parent's nodes that this one resides.
+ If this is not in a collection, this will return -1.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.IsRoot">
+	<summary>
+ This will return true if this is a root node (has no parent).
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.IsChild">
+	<summary>
+ This will return true if this is a child node (has a parent).
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNode.IsDescendentOf(Go__ExtractIcons.Html.HtmlNode)">
+	<summary>
+ This will return true if the node passed is a descendent of this node.
+ </summary>
+	<param name="node">The node that might be the parent or grandparent (etc.)</param>
+	<returns>True if this node is a descendent of the one passed in.</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNode.IsAncestorOf(Go__ExtractIcons.Html.HtmlNode)">
+	<summary>
+ This will return true if the node passed is one of the children or grandchildren of this node.
+ </summary>
+	<param name="node">The node that might be a child.</param>
+	<returns>True if this node is an ancestor of the one specified.</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNode.GetCommonAncestor(Go__ExtractIcons.Html.HtmlNode)">
+	<summary>
+ This will return the ancstor that is common to this node and the one specified.
+ </summary>
+	<param name="node">The possible node that is relative</param>
+	<returns>The common ancestor, or null if there is none</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNode.Remove">
+	<summary>
+ This will remove this node and all child nodes from the tree. If this
+ is a root node, this operation will do nothing.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNode.SetParent(Go__ExtractIcons.Html.HtmlElement)">
+	<summary>
+ Internal method to maintain the identity of the parent node.
+ </summary>
+	<param name="parentNode">The parent node of this one</param>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.HTML">
+	<summary>
+ This will return the full HTML to represent this node (and all child nodes).
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNode.XHTML">
+	<summary>
+ This will return the full XHTML to represent this node (and all child nodes)
+ </summary>
+</member><member name="T:Go__ExtractIcons.Html.HtmlNode">
+	<summary>
+ The HtmlNode is the base for all objects that may appear in HTML. Currently, 
+ this implemention only supports HtmlText and HtmlElement node types.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.#ctor(Go__ExtractIcons.Html.HtmlElement)">
+	<summary>
+ A collection is usually associated with a parent node (an HtmlElement, actually)
+ but you can pass null to implement an abstracted collection.
+ </summary>
+	<param name="parent">The parent element, or null if it is not appropriate</param>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.Add(Go__ExtractIcons.Html.HtmlNode)">
+	<summary>
+ This will add a node to the collection.
+ </summary>
+	<param name="node"></param>
+	<returns></returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.IndexOf(Go__ExtractIcons.Html.HtmlNode)">
+	<summary>
+ This is used to identify the index of this node as it appears in the collection.
+ </summary>
+	<param name="node">The node to test</param>
+	<returns>The index of the node, or -1 if it is not in this collection</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.Insert(System.Int32,Go__ExtractIcons.Html.HtmlNode)">
+	<summary>
+ This will insert a node at the given position
+ </summary>
+	<param name="index">The position at which to insert the node.</param>
+	<param name="node">The node to insert.</param>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNodeCollection.Item(System.Int32)">
+	<summary>
+ This property allows you to change the node at a particular position in the
+ collection.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlNodeCollection.Item(System.String)">
+	<summary>
+ This allows you to directly access the first element in this colleciton with the given name.
+ If the node does not exist, this will return null.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.FindByName(System.String)">
+	<summary>
+ This will search though this collection of nodes for all elements with the
+ specified name. If you want to search the subnodes recursively, you should
+ pass True as the parameter in searchChildren. This search is guaranteed to
+ return nodes in the order in which they are found in the document.
+ </summary>
+	<param name="name">The name of the element to find</param>
+	<returns>A collection of all the nodes that macth.</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.FindByName(System.String,System.Boolean)">
+	<summary>
+ This will search though this collection of nodes for all elements with the
+ specified name. If you want to search the subnodes recursively, you should
+ pass True as the parameter in searchChildren. This search is guaranteed to
+ return nodes in the order in which they are found in the document.
+ </summary>
+	<param name="name">The name of the element to find</param>
+	<param name="searchChildren">True if you want to search sub-nodes, False to
+ only search this collection.</param>
+	<returns>A collection of all the nodes that macth.</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.FindByAttributeName(System.String)">
+	<summary>
+ This will search though this collection of nodes for all elements with the an
+ attribute with the given name. 
+ </summary>
+	<param name="attributeName">The name of the attribute to find</param>
+	<returns>A collection of all the nodes that macth.</returns>
+</member><member name="M:Go__ExtractIcons.Html.HtmlNodeCollection.FindByAttributeName(System.String,System.Boolean)">
+	<summary>
+ This will search though this collection of nodes for all elements with the an
+ attribute with the given name. 
+ </summary>
+	<param name="attributeName">The name of the attribute to find</param>
+	<param name="searchChildren">True if you want to search sub-nodes, False to
+ only search this collection.</param>
+	<returns>A collection of all the nodes that macth.</returns>
+</member><member name="T:Go__ExtractIcons.Html.HtmlNodeCollection">
+	<summary>
+ This object represents a collection of HtmlNodes, which can be either HtmlText
+ or HtmlElement objects. The order in which the nodes occur directly corresponds
+ to the order in which they appear in the original HTML document.
+ </summary>
+</member><member name="P:Go__ExtractIcons.CursorExtractor.FileName">
+	<summary>
+ A fully quallified name of the executable module.
+ </summary>
+</member><member name="P:Go__ExtractIcons.CursorExtractor.ModuleHandle">
+	<summary>
+ Gets the module handle.
+ </summary>
+</member><member name="P:Go__ExtractIcons.CursorExtractor.CursorNamesList">
+	<summary>
+ Gets a list of icons resource names RT_GROUP_CURSOR;
+ </summary>
+</member><member name="P:Go__ExtractIcons.CursorExtractor.CursorCount">
+	<summary>
+ Gets number of RT_GROUP_CURSOR found in the executable module.
+ </summary>
+</member><member name="P:Go__ExtractIcons.CursorExtractor.CursorCache">
+	<summary>
+ Gets or sets the RT_GROUP_CURSOR cache.
+ </summary>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.#ctor(System.String)">
+	<summary>
+ Initializes a new IconExtractor and loads the executable module into the address space of the calling process.
+ The executable module can be a .dll or an .exe file.
+ The specified module can cause other modules to be mapped into the address space.
+ </summary>
+	<param name="fileName">The name of the executable module (either a .dll or an .exe file). The file name can contain environment variables (like %SystemRoot%).</param>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.Finalize">
+	<summary>
+ Destructs the IconExtractor object.
+ </summary>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.GetIconAt(System.Int32)">
+	<summary>
+ Gets a System.Drawing.Icon that represents RT_GROUP_CURSOR at the givin index.
+ </summary>
+	<param name="index">The index of the RT_GROUP_CURSOR in the executable module.</param>
+	<returns>Returns System.Drawing.Icon.</returns>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.LoadLibrary(System.String)">
+	<summary>
+ This function maps a specified executable module into the address space of the calling process.
+ The executable module can be a .dll or an .exe file.
+ The specified module can cause other modules to be mapped into the address space.
+ </summary>
+	<param name="fileName">The name of the executable module (either a .dll or an .exe file). The file name can contain environment variables (like %SystemRoot%).</param>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.EnumResourcesCallBack(System.IntPtr,Go__ExtractIcons.ResourceTypes,System.IntPtr,System.IntPtr)">
+	<summary>
+ The callback function that is being called for each resource (RT_GROUP_CURSOR, RT_CURSOR) in the executable module.
+ The function stores the resource name of type RT_GROUP_CURSOR into the GroupIconsList and 
+ stores the resource name of type RT_CURSOR into the IconsList.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="lpszType">Specifies the type of the resource being enumurated (RT_GROUP_CURSOR, RT_CURSOR).</param>
+	<param name="lpszName">Specifies the name of the resource being enumurated. For more ifnormation, see the Remarks section.</param>
+	<param name="lParam">Specifies the application defined parameter passed to the EnumResourceNames function.</param>
+	<returns>This callback function return true to continue enumuration.</returns>
+	<remarks>
+ If the high bit of lpszName is not set (=0), lpszName specifies the integer identifier of the givin resource.
+ Otherwise, it is a pointer to a null terminated string.
+ If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+ #define IS_INTRESOURCE(_r) ((((ULONG_PTR)(_r)) &gt;&gt; 16) == 0)
+ </remarks>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.GetIconFromLib(System.Int32)">
+	<summary>
+ Gets a System.Drawing.Icon that represents RT_GROUP_CURSOR at the givin index from the executable module.
+ </summary>
+	<param name="index">The index of the RT_GROUP_CURSOR in the executable module.</param>
+	<returns>Returns System.Drawing.Icon.</returns>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.GetResourceData(System.IntPtr,Go__ExtractIcons.ResourceName,Go__ExtractIcons.ResourceTypes)">
+	<summary>
+ Extracts the raw data of the resource from the module.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="resourceName">The name of the resource.</param>
+	<param name="resourceType">The type of the resource.</param>
+	<returns>The resource raw data.</returns>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.GetResourceData(System.IntPtr,System.Int32,Go__ExtractIcons.ResourceTypes)">
+	<summary>
+ Extracts the raw data of the resource from the module.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="resourceId">The identifier of the resource.</param>
+	<param name="resourceType">The type of the resource.</param>
+	<returns>The resource raw data.</returns>
+</member><member name="M:Go__ExtractIcons.CursorExtractor.Dispose">
+	<summary>
+ Releases the resources of that object.
+ </summary>
+</member><member name="T:Go__ExtractIcons.CursorExtractor">
+	<summary>
+ Get icon resources (RT_GROUP_CURSOR and RT_CURSOR) from an executable module (either a .dll or an .exe file).
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoBtn.BtnMode">
+	<summary>
+  Gets or sets the style to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.BtnStyle">
+	<summary>
+  Gets or sets the style to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.HoverImage">
+	<summary>
+  Gets or sets the hover image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.PressedImage">
+	<summary>
+ Gets or sets the pressed image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.DisabledImage">
+	<summary>
+ Gets or sets the disabled image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.NormalImage">
+	<summary>
+ Gets or sets the normal image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.SecondHoverImage">
+	<summary>
+  Gets or sets the second hover image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.SecondPressedImage">
+	<summary>
+ Gets or sets the second pressed image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.SecondDisabledImage">
+	<summary>
+ Gets or sets the second disabled image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.SecondNormalImage">
+	<summary>
+ Gets or sets the second normal image.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.ToolTipText">
+	<summary>
+ Gets or sets the tooltip text.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.ToolTipTitle">
+	<summary>
+ Gets or sets the tooltip title.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.ToolTipIcon">
+	<summary>
+ Gets or sets the tooltip icon.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoBtn.ToolTipOnHover">
+	<summary>
+ Gets or sets indicating if the tooltip should be showed on mouse hover.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.GoBtn.PerformClick">
+	<summary>
+ Activates the GoBtn when it is clicked by the mouse.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Go__ExtractIcons.IconImageCollection.images">
+	<summary>
+ Stores icon images.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.#ctor">
+	<summary>
+ Initializes a new instance of the IconImageCollection class.
+ </summary>
+</member><member name="E:Go__ExtractIcons.IconImageCollection.CollectionChanged">
+	<summary>
+ Occurs when the collection has changed.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconImageCollection.Count">
+	<summary>
+ Gets the number of images in the collection.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconImageCollection.IsReadOnly">
+	<summary>
+ Gets a value indicating whether the collection is read-only.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.Add(System.Windows.Media.Imaging.BitmapSource)">
+	<summary>
+ Adds a new image to the collection.
+ </summary>
+	<param name="item">Image to add.</param>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.Set(System.Windows.Media.Imaging.BitmapSource)">
+	<summary>
+ Adds an image to the collection, replacing one if it has the same dimensions.
+ </summary>
+	<param name="item">Image to add.</param>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.Clear">
+	<summary>
+ Removes all of the images from the collection.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.Contains(System.Windows.Media.Imaging.BitmapSource)">
+	<summary>
+ Returns a value indicating whether an image is contained in the collection.
+ </summary>
+	<param name="item">Image to search for in the collection.</param>
+	<returns>Value indicating whether the image was found in the collection.</returns>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.CopyTo(System.Windows.Media.Imaging.BitmapSource[],System.Int32)">
+	<summary>
+ Copies the images in the collection to an array.
+ </summary>
+	<param name="array">Array into which images are copied.</param>
+	<param name="arrayIndex">Index in array to begin copying.</param>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.Remove(System.Windows.Media.Imaging.BitmapSource)">
+	<summary>
+ Removes an image from the collection.
+ </summary>
+	<param name="item">Image to remove from the collection.</param>
+	<returns>Value indicating whether image was contained in the collection.</returns>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.GetEnumerator">
+	<summary>
+ Returns an instance used to enumerate the images in the collection.
+ </summary>
+	<returns>Instance used to enumerate the images in the collection.</returns>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.GetEnumerator2">
+	<summary>
+ Returns an instance used to enumerate the images in the collection.
+ </summary>
+	<returns>Instance used to enumerate the images in the collection.</returns>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.ConvertBitmap(System.Windows.Media.Imaging.BitmapSource)">
+	<summary>
+ Converts a bitmap to BRGA32 pixel format if necessary.
+ </summary>
+	<param name="source">Bitmap to convert.</param>
+	<returns>Converted bitmap.</returns>
+</member><member name="M:Go__ExtractIcons.IconImageCollection.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+	<summary>
+ Raises the CollectionChanged event.
+ </summary>
+	<param name="e">Contains information about the event.</param>
+</member><member name="T:Go__ExtractIcons.IconImageCollection">
+	<summary>
+ Maintains a sorted collection of icon images.
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONIMAGE.Header">
+	<summary>
+ icHeader: DIB format header
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONIMAGE.Colors">
+	<summary>
+ icColors: Color table
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONIMAGE.XOR">
+	<summary>
+ icXOR: DIB bits for XOR mask
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONIMAGE.AND">
+	<summary>
+ icAND: DIB bits for AND mask
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIR2.Reserved">
+	<summary>
+ idReserved: Always 0
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIR2.ResourceType">
+	<summary>
+ idType: Resource type (Always 1 for icons)
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIR2.EntryCount">
+	<summary>
+ idCount: Number of images in directory
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIR2.Entries">
+	<summary>
+ idEntries: Directory entries for each image
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.Width">
+	<summary>
+ bWidth: In pixels.  Must be 16, 32, or 64
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.Height">
+	<summary>
+ bHeight: In pixels.  Must be 16, 32, or 64
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.ColorCount">
+	<summary>
+ bColorCount: Number of colors in image (0 if &gt;=8bpp)
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.Reserved">
+	<summary>
+ bReserved: Must be zero
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.Planes">
+	<summary>
+ wPlanes: Number of color planes in the icon bitmap
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.BitCount">
+	<summary>
+ wBitCount: Number of bits in each pixel of the icon.  Must be 1,4,8, or 24
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.BytesInRes">
+	<summary>
+ dwBytesInRes: Number of bytes in the resource
+ </summary>
+</member><member name="F:Go__ExtractIcons.ICONDIRENTRY2.ImageOffset">
+	<summary>
+ dwImageOffset: Number of bytes from the beginning of the file to the image
+ </summary>
+</member><member name="F:Go__ExtractIcons.BITMAPINFOHEADER.biHeight">
+	<summary>
+ Height of bitmap.  For icons, this is the height of XOR and AND masks together. Divide by 2 to get true height.
+ </summary>
+</member><member name="T:Go__ExtractIcons.BITMAPINFOHEADER">
+	<summary>
+ Describes the format of the bitmap image
+ </summary>
+	<remarks>
+ BITMAPHEADERINFO struct
+ referenced by http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwui/html/msdn_icons.asp
+ defined by http://www.whisqu.se/per/docs/graphics52.htm
+ Only the following members are used: biSize, biWidth, biHeight, biPlanes, biBitCount, biSizeImage. All other members must be 0. The biHeight member specifies the combined height of the XOR and AND masks. The members of icHeader define the contents and sizes of the other elements of the ICONIMAGE structure in the same way that the BITMAPINFOHEADER structure defines a CF_DIB format DIB
+ </remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.#ctor">
+	<summary>
+ Blank constructor
+ </summary>
+	<remarks>Hostname, username and password must be set manually</remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.#ctor(System.String)">
+	<summary>
+ Constructor just taking the hostname
+ </summary>
+	<param name="Hostname">in either ftp://ftp.host.com or ftp.host.com form</param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Constructor taking hostname, username and password
+ </summary>
+	<param name="Hostname">in either ftp://ftp.host.com or ftp.host.com form</param>
+	<param name="Username">Leave blank to use 'anonymous' but set password to your email</param>
+	<param name="Password"></param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.ListDirectory(System.String)">
+	<summary>
+ Return a simple directory listing
+ </summary>
+	<param name="directory">Directory to list, e.g. /pub</param>
+	<returns>A list of filenames and directories as a List(of String)</returns>
+	<remarks>For a detailed directory listing, use ListDirectoryDetail</remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.ListDirectoryDetail(System.String)">
+	<summary>
+ Return a detailed directory listing
+ </summary>
+	<param name="directory">Directory to list, e.g. /pub/etc</param>
+	<returns>An FTPDirectory object</returns>
+</member><member name="M:Go__ExtractIcons.FTPClient.Upload(System.String,System.String)">
+	<summary>
+ Copy a local file to the FTP server
+ </summary>
+	<param name="localFilename">Full path of the local file</param>
+	<param name="targetFilename">Target filename, if required</param>
+	<returns></returns>
+	<remarks>If the target filename is blank, the source filename is used
+ (assumes current directory). Otherwise use a filename to specify a name
+ or a full path and filename if required.</remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.Upload(System.IO.FileInfo,System.String)">
+	<summary>
+ Upload a local file to the FTP server
+ </summary>
+	<param name="fi">Source file</param>
+	<param name="targetFilename">Target filename (optional)</param>
+	<returns></returns>
+</member><member name="M:Go__ExtractIcons.FTPClient.Download(System.String,System.String,System.Boolean)">
+	<summary>
+ Copy a file from FTP server to local
+ </summary>
+	<param name="sourceFilename">Target filename, if required</param>
+	<param name="localFilename">Full path of the local file</param>
+	<returns></returns>
+	<remarks>Target can be blank (use same filename), or just a filename
+ (assumes current directory) or a full path and filename</remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.FtpDelete(System.String)">
+	<summary>
+ Delete remote file
+ </summary>
+	<param name="filename">filename or full path</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.FtpFileExists(System.String)">
+	<summary>
+ Determine if file exists on remote FTP site
+ </summary>
+	<param name="filename">Filename (for current dir) or full path</param>
+	<returns></returns>
+	<remarks>Note this only works for files</remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.GetFileSize(System.String)">
+	<summary>
+ Determine size of remote file
+ </summary>
+	<param name="filename"></param>
+	<returns></returns>
+	<remarks>Throws an exception if file does not exist</remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.GetCredentials">
+	<summary>
+ Get the credentials from username/password
+ </summary>
+</member><member name="M:Go__ExtractIcons.FTPClient.GetFullPath(System.String)">
+	<summary>
+ returns a full path using CurrentDirectory for a relative file reference
+ </summary>
+</member><member name="M:Go__ExtractIcons.FTPClient.AdjustDir(System.String)">
+	<summary>
+ Amend an FTP path so that it always starts with /
+ </summary>
+	<param name="path">Path to adjust</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.GetStringResponse(System.Net.FtpWebRequest)">
+	<summary>
+ Obtains a response stream as a string
+ </summary>
+	<param name="ftp">current FTP request</param>
+	<returns>String containing response</returns>
+	<remarks>FTP servers typically return strings with CR and
+ not CRLF. Use respons.Replace(vbCR, vbCRLF) to convert
+ to an MSDOS string</remarks>
+</member><member name="M:Go__ExtractIcons.FTPClient.GetSize(System.Net.FtpWebRequest)">
+	<summary>
+ Gets the size of an FTP request
+ </summary>
+	<param name="ftp"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.FTPClient.Hostname">
+	<summary>
+ Hostname
+ </summary>
+	<value></value>
+	<remarks>Hostname can be in either the full URL format
+ ftp://ftp.myhost.com or just ftp.myhost.com
+ </remarks>
+</member><member name="P:Go__ExtractIcons.FTPClient.Username">
+	<summary>
+ Username property
+ </summary>
+	<value></value>
+	<remarks>Can be left blank, in which case 'anonymous' is returned</remarks>
+</member><member name="F:Go__ExtractIcons.FTPClient._currentDirectory">
+	<summary>
+ The CurrentDirectory value
+ </summary>
+	<remarks>Defaults to the root '/'</remarks>
+</member><member name="T:Go__ExtractIcons.FTPClient">
+	<summary>
+ A wrapper class for .NET 2.0 FTP
+ </summary>
+	<remarks>
+ This class does not hold open an FTP connection but 
+ instead is stateless: for each FTP request it 
+ connects, performs the request and disconnects.
+ </remarks>
+</member><member name="T:Go__ExtractIcons.FTPfileInfo.DirectoryEntryTypes">
+	<summary>
+ Identifies entry as either File or Directory
+ </summary>
+</member><member name="M:Go__ExtractIcons.FTPfileInfo.#ctor(System.String,System.String)">
+	<summary>
+ Constructor taking a directory listing line and path
+ </summary>
+	<param name="line">The line returned from the detailed directory list</param>
+	<param name="path">Path of the directory</param>
+	<remarks></remarks>
+</member><member name="F:Go__ExtractIcons.FTPfileInfo._ParseFormats">
+	<summary>
+ List of REGEX formats for different FTP server listing formats
+ </summary>
+	<remarks>
+ The first three are various UNIX/LINUX formats, fourth is for MS FTP
+ in detailed mode and the last for MS FTP in 'DOS' mode.
+ I wish VB.NET had support for Const arrays like C# but there you go
+ </remarks>
+</member><member name="T:Go__ExtractIcons.FTPfileInfo">
+	<summary>
+ Represents a file or directory entry from an FTP listing
+ </summary>
+	<remarks>
+ This class is used to parse the results from a detailed
+ directory list from FTP. It supports most formats of
+ </remarks>
+</member><member name="M:Go__ExtractIcons.FTPdirectory.#ctor(System.String,System.String)">
+	<summary>
+ Constructor: create list from a (detailed) directory string
+ </summary>
+	<param name="dir">directory listing string</param>
+	<param name="path"></param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.FTPdirectory.GetFiles(System.String)">
+	<summary>
+ Filter out only files from directory listing
+ </summary>
+	<param name="ext">optional file extension filter</param>
+	<returns>FTPdirectory listing</returns>
+</member><member name="M:Go__ExtractIcons.FTPdirectory.GetDirectories">
+	<summary>
+ Returns a list of only subdirectories
+ </summary>
+	<returns>FTPDirectory list</returns>
+	<remarks></remarks>
+</member><member name="T:Go__ExtractIcons.FTPdirectory">
+	<summary>
+ Stores a list of files and directories from an FTP result
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.IconItem.Selected">
+	<summary>
+ Return's the controls selected state.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.IconItem.Hover">
+	<summary>
+ Return's the controls hover state.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.IconItem.Icon">
+	<summary>
+ Gets or sets the icon on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetIconInfo(System.Drawing.Icon)">
+	<summary>
+ Returns TAFactory.IconPack.IconInfo object that holds the information about the icon.
+ </summary>
+	<param name="icon">System.Drawing.Icon to get the information about.</param>
+	<returns>TAFactory.IconPack.IconInfo object that holds the information about the icon.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetIconInfo(System.String)">
+	<summary>
+ Returns TAFactory.IconPack.IconInfo object that holds the information about the icon.
+ </summary>
+	<param name="fileName">The icon file path.</param>
+	<returns>TAFactory.IconPack.IconInfo object that holds the information about the icon.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ExtractIcon(System.String,System.Int32)">
+	<summary>
+ Extracts an icon from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<returns>A System.Drawing.Icon extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ExtractAllIcons(System.String)">
+	<summary>
+ Extracts all the icons from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<returns>
+ A list of System.Drawing.Icon found in the file.
+ If the file was an icon file, it will return a list containing a single icon.
+ </returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.SplitGroupIcon(System.Drawing.Icon)">
+	<summary>
+ Splits the group icon into a list of icons (the single icon file can contain a set of icons).
+ </summary>
+	<param name="icon">The System.Drawing.Icon need to be splitted.</param>
+	<returns>List of System.Drawing.Icon.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetBestFitIcon(System.Drawing.Icon)">
+	<summary>
+ Gets the System.Drawing.Icon that best fits the current display device.
+ </summary>
+	<param name="icon">System.Drawing.Icon to be searched.</param>
+	<returns>System.Drawing.Icon that best fit the current display device.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetBestFitIcon(System.Drawing.Icon,System.Drawing.Size)">
+	<summary>
+ Gets the System.Drawing.Icon that best fits the current display device.
+ </summary>
+	<param name="icon">System.Drawing.Icon to be searched.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<returns>System.Drawing.Icon that best fit the current display device.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetBestFitIcon(System.Drawing.Icon,System.Drawing.Size,System.Boolean)">
+	<summary>
+ Gets the System.Drawing.Icon that best fits the current display device.
+ </summary>
+	<param name="icon">System.Drawing.Icon to be searched.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<param name="isMonochrome">Specifies whether to get the monochrome icon or the colored one.</param>
+	<returns>System.Drawing.Icon that best fit the current display device.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ExtractBestFitIcon(System.String,System.Int32)">
+	<summary>
+ Extracts an icon (that best fits the current display device) from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<returns>A System.Drawing.Icon (that best fits the current display device) extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ExtractBestFitIcon(System.String,System.Int32,System.Drawing.Size)">
+	<summary>
+ Extracts an icon (that best fits the current display device) from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<returns>A System.Drawing.Icon (that best fits the current display device) extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ExtractBestFitIcon(System.String,System.Int32,System.Drawing.Size,System.Boolean)">
+	<summary>
+ Extracts an icon (that best fits the current display device) from a givin icon file or an executable module (.dll or an .exe file).
+ </summary>
+	<param name="fileName">The path of the icon file or the executable module.</param>
+	<param name="iconIndex">The index of the icon in the executable module.</param>
+	<param name="desiredSize">Specifies the desired size of the icon.</param>
+	<param name="isMonochrome">Specifies whether to get the monochrome icon or the colored one.</param>
+	<returns>A System.Drawing.Icon (that best fits the current display device) extracted from the file at the specified index in case of an executable module.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetAssociatedIcon(System.String,Go__ExtractIcons.IconFlags)">
+	<summary>
+ Gets icon associated with the givin file.
+ </summary>
+	<param name="fileName">The file path (both absolute and relative paths are valid).</param>
+	<param name="flags">Specifies which icon to be retrieved (Larg, Small, Selected, Link Overlay and Shell Size).</param>
+	<returns>A System.Drawing.Icon associated with the givin file.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetAssociatedLargeIcon(System.String)">
+	<summary>
+ Gets large icon associated with the givin file.
+ </summary>
+	<param name="fileName">The file path (both absolute and relative paths are valid).</param>
+	<returns>A System.Drawing.Icon associated with the givin file.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.GetAssociatedSmallIcon(System.String)">
+	<summary>
+ Gets small icon associated with the givin file.
+ </summary>
+	<param name="fileName">The file path (both absolute and relative paths are valid).</param>
+	<returns>A System.Drawing.Icon associated with the givin file.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.Merge(System.Collections.Generic.List{System.Drawing.Icon})">
+	<summary>
+ Merges a list of icons into one single icon.
+ </summary>
+	<param name="icons">The icons to be merged.</param>
+	<returns>System.Drawing.Icon that contains all the images of the giving icons.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ChangeIconColorDepth(System.Drawing.Icon,System.Windows.Forms.ColorDepth)">
+	<summary>
+ Changes the icon color depth of an Icon.
+ </summary>
+	<param name="Icon">The icon to be converted.</param>
+	<param name="ColorDepthToChangeTo">The color depth to change to.</param>
+	<returns>The input icon, but with a different color depth.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ConvertImageToIcon(System.Drawing.Image)">
+	<summary>
+ Converts an image to an icon.
+ </summary>
+	<param name="Image">The image to be converted.</param>
+	<returns>System.Drawing.Icon from an image.</returns>
+</member><member name="M:Go__ExtractIcons.IconHelper.ConvertImageToIcon(System.String)">
+	<summary>
+ Converts an image to an icon.
+ </summary>
+	<param name="FileName">The filename to the image.</param>
+	<returns>System.Drawing.Icon from an image.</returns>
+</member><member name="T:Go__ExtractIcons.IconHelper">
+	<summary>
+ Contains helper function to help dealing with System.Drawing.Icon.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Utility.ReadStructure``1(System.IO.Stream)">
+	<summary>
+ Reads a structure of type T from the input stream.
+ </summary>
+	<typeparam name="T">The structure type to be read.</typeparam>
+	<param name="inputStream">The input stream to read from.</param>
+	<returns>A structure of type T that was read from the stream.</returns>
+</member><member name="M:Go__ExtractIcons.Utility.WriteStructure``1(System.IO.Stream,``0)">
+	<summary>
+ Writes as structure of type T to the output stream.
+ </summary>
+	<typeparam name="T">The structure type to be written.</typeparam>
+	<param name="outputStream">The output stream to write to.</param>
+	<param name="structure">The structure to be written.</param>
+</member><member name="T:Go__ExtractIcons.Utility">
+	<summary>
+ Holds a set of utilities.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoGroupBox.Font">
+	<summary>
+ Gets or sets the font color to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoGroupBox.ForeColor">
+	<summary>
+ Gets or sets the fore color to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoGroupBox.Title">
+	<summary>
+ Gets or sets the title to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoGroupBox.BackgroundColor">
+	<summary>
+ Gets or sets the background color.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoGroupBox.BorderSize">
+	<summary>
+ Gets or sets the border size on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoGroupBox.BorderColor">
+	<summary>
+ Gets or sets the border color on the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.GoRenderer.#ctor">
+	<summary>
+ Initialize a new instance of the GoRender class.
+ </summary>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderArrow(System.Windows.Forms.ToolStripArrowRenderEventArgs)">
+	<summary>
+ Raises the RenderArrow event. 
+ </summary>
+	<param name="e">An ToolStripArrowRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderButtonBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+	<summary>
+ Raises the RenderButtonBackground event. 
+ </summary>
+	<param name="e">An ToolStripItemRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderDropDownButtonBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+	<summary>
+ Raises the RenderDropDownButtonBackground event. 
+ </summary>
+	<param name="e">An ToolStripItemRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderItemCheck(System.Windows.Forms.ToolStripItemImageRenderEventArgs)">
+	<summary>
+ Raises the RenderItemCheck event. 
+ </summary>
+	<param name="e">An ToolStripItemImageRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderItemText(System.Windows.Forms.ToolStripItemTextRenderEventArgs)">
+	<summary>
+ Raises the RenderItemText event. 
+ </summary>
+	<param name="e">An ToolStripItemTextRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderItemImage(System.Windows.Forms.ToolStripItemImageRenderEventArgs)">
+	<summary>
+ Raises the RenderItemImage event. 
+ </summary>
+	<param name="e">An ToolStripItemImageRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderMenuItemBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+	<summary>
+ Raises the RenderMenuItemBackground event. 
+ </summary>
+	<param name="e">An ToolStripItemRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderSplitButtonBackground(System.Windows.Forms.ToolStripItemRenderEventArgs)">
+	<summary>
+ Raises the RenderSplitButtonBackground event. 
+ </summary>
+	<param name="e">An ToolStripItemRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderStatusStripSizingGrip(System.Windows.Forms.ToolStripRenderEventArgs)">
+	<summary>
+ Raises the RenderStatusStripSizingGrip event. 
+ </summary>
+	<param name="e">An ToolStripRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderToolStripContentPanelBackground(System.Windows.Forms.ToolStripContentPanelRenderEventArgs)">
+	<summary>
+ Raises the RenderToolStripContentPanelBackground event. 
+ </summary>
+	<param name="e">An ToolStripContentPanelRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderSeparator(System.Windows.Forms.ToolStripSeparatorRenderEventArgs)">
+	<summary>
+ Raises the RenderSeparator event. 
+ </summary>
+	<param name="e">An ToolStripSeparatorRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderToolStripBackground(System.Windows.Forms.ToolStripRenderEventArgs)">
+	<summary>
+ Raises the RenderToolStripBackground event. 
+ </summary>
+	<param name="e">An ToolStripRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderImageMargin(System.Windows.Forms.ToolStripRenderEventArgs)">
+	<summary>
+ Raises the RenderImageMargin event. 
+ </summary>
+	<param name="e">An ToolStripRenderEventArgs containing the event data.</param>
+</member><member name="M:Go__ExtractIcons.GoRenderer.OnRenderToolStripBorder(System.Windows.Forms.ToolStripRenderEventArgs)">
+	<summary>
+ Raises the RenderToolStripBorder event. 
+ </summary>
+	<param name="e">An ToolStripRenderEventArgs containing the event data.</param>
+</member><member name="T:Go__ExtractIcons.GoRenderer">
+	<summary>
+ Draw ToolStrips using the GoRender.
+ </summary>
+</member><member name="T:Go__ExtractIcons.Converter">
+	<summary>
+ Provides methods for converting between the bitmap and icon formats
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconExtractor.FileName">
+	<summary>
+ A fully quallified name of the executable module.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconExtractor.ModuleHandle">
+	<summary>
+ Gets the module handle.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconExtractor.IconNamesList">
+	<summary>
+ Gets a list of icons resource names RT_GROUP_ICON;
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconExtractor.IconCount">
+	<summary>
+ Gets number of RT_GROUP_ICON found in the executable module.
+ </summary>
+</member><member name="P:Go__ExtractIcons.IconExtractor.IconCache">
+	<summary>
+ Gets or sets the RT_GROUP_ICON cache.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconExtractor.#ctor(System.String)">
+	<summary>
+ Initializes a new IconExtractor and loads the executable module into the address space of the calling process.
+ The executable module can be a .dll or an .exe file.
+ The specified module can cause other modules to be mapped into the address space.
+ </summary>
+	<param name="fileName">The name of the executable module (either a .dll or an .exe file). The file name can contain environment variables (like %SystemRoot%).</param>
+</member><member name="M:Go__ExtractIcons.IconExtractor.Finalize">
+	<summary>
+ Destructs the IconExtractor object.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconExtractor.GetIconAt(System.Int32)">
+	<summary>
+ Gets a System.Drawing.Icon that represents RT_GROUP_ICON at the givin index.
+ </summary>
+	<param name="index">The index of the RT_GROUP_ICON in the executable module.</param>
+	<returns>Returns System.Drawing.Icon.</returns>
+</member><member name="M:Go__ExtractIcons.IconExtractor.LoadLibrary(System.String)">
+	<summary>
+ This function maps a specified executable module into the address space of the calling process.
+ The executable module can be a .dll or an .exe file.
+ The specified module can cause other modules to be mapped into the address space.
+ </summary>
+	<param name="fileName">The name of the executable module (either a .dll or an .exe file). The file name can contain environment variables (like %SystemRoot%).</param>
+</member><member name="M:Go__ExtractIcons.IconExtractor.EnumResourcesCallBack(System.IntPtr,Go__ExtractIcons.ResourceTypes,System.IntPtr,System.IntPtr)">
+	<summary>
+ The callback function that is being called for each resource (RT_GROUP_ICON, RT_ICON) in the executable module.
+ The function stores the resource name of type RT_GROUP_ICON into the GroupIconsList and 
+ stores the resource name of type RT_ICON into the IconsList.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="lpszType">Specifies the type of the resource being enumurated (RT_GROUP_ICON, RT_ICON).</param>
+	<param name="lpszName">Specifies the name of the resource being enumurated. For more ifnormation, see the Remarks section.</param>
+	<param name="lParam">Specifies the application defined parameter passed to the EnumResourceNames function.</param>
+	<returns>This callback function return true to continue enumuration.</returns>
+	<remarks>
+ If the high bit of lpszName is not set (=0), lpszName specifies the integer identifier of the givin resource.
+ Otherwise, it is a pointer to a null terminated string.
+ If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+ #define IS_INTRESOURCE(_r) ((((ULONG_PTR)(_r)) &gt;&gt; 16) == 0)
+ </remarks>
+</member><member name="M:Go__ExtractIcons.IconExtractor.GetIconFromLib(System.Int32)">
+	<summary>
+ Gets a System.Drawing.Icon that represents RT_GROUP_ICON at the givin index from the executable module.
+ </summary>
+	<param name="index">The index of the RT_GROUP_ICON in the executable module.</param>
+	<returns>Returns System.Drawing.Icon.</returns>
+</member><member name="M:Go__ExtractIcons.IconExtractor.GetResourceData(System.IntPtr,Go__ExtractIcons.ResourceName,Go__ExtractIcons.ResourceTypes)">
+	<summary>
+ Extracts the raw data of the resource from the module.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="resourceName">The name of the resource.</param>
+	<param name="resourceType">The type of the resource.</param>
+	<returns>The resource raw data.</returns>
+</member><member name="M:Go__ExtractIcons.IconExtractor.GetResourceData(System.IntPtr,System.Int32,Go__ExtractIcons.ResourceTypes)">
+	<summary>
+ Extracts the raw data of the resource from the module.
+ </summary>
+	<param name="hModule">The module handle.</param>
+	<param name="resourceId">The identifier of the resource.</param>
+	<param name="resourceType">The type of the resource.</param>
+	<returns>The resource raw data.</returns>
+</member><member name="M:Go__ExtractIcons.IconExtractor.Dispose">
+	<summary>
+ Releases the resources of that object.
+ </summary>
+</member><member name="T:Go__ExtractIcons.IconExtractor">
+	<summary>
+ Get icon resources (RT_GROUP_ICON and RT_ICON) from an executable module (either a .dll or an .exe file).
+ </summary>
+</member><member name="P:Go__ExtractIcons.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Go__ExtractIcons.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Go__ExtractIcons.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Go__ExtractIcons.MultiListBox.View">
+	<summary>
+ Gets or sets the view to the items in the control."
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.Items">
+	<summary>
+ Gets or sets the items in the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.FontBoldOnSelect">
+	<summary>
+ Gets or sets the FontBoldOnSelect property to the items in the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.FontUnderLineOnHover">
+	<summary>
+ Gets or sets the FontUnderLineOnHover property to the items in the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.DisabledLineColor">
+	<summary>
+ Gets or sets the diabled line color to the items in the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.SelectedLineColor">
+	<summary>
+ Gets or sets the selected line color to the items in the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.HideSelection">
+	<summary>
+ Gets or sets the HideSelection property to the items in the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.BorderColor">
+	<summary>
+ Gets or sets the border color to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.MultiListBox.DrawBorder">
+	<summary>
+ Gets or sets indicating if the control shoud draw border.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.FileInfos.GetAllFiles(System.String,System.Boolean,System.String)">
+	<summary>
+ Gets all files in a directory.
+ </summary>
+	<param name="Directory">The directory to search in.</param>
+	<param name="SearchSubFolders">Search subfolders.</param>
+	<param name="ExtensionsToLookFor">The extensions to look for.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.ExtendedBinaryReader.#ctor(System.IO.Stream)">
+	<summary>
+   Creates a new instance of the <c>ExtendedBinaryReader</c> class.
+ </summary>
+	<param name="Input">A stream.</param>
+</member><member name="M:Go__ExtractIcons.ExtendedBinaryReader.#ctor(System.IO.Stream,System.Text.Encoding)">
+	<summary>
+   Creates a new instance of the <c>ExtendedBinaryReader</c> class.
+ </summary>
+	<param name="Input">The provided stream.</param>
+	<param name="Encoding">The character encoding.</param>
+</member><member name="M:Go__ExtractIcons.ExtendedBinaryReader.ReadToEnd">
+	<summary>
+   Reads the whole data in the base stream and returns it in an
+   array of bytes.
+ </summary>
+	<returns>The streams whole binary data.</returns>
+</member><member name="M:Go__ExtractIcons.ExtendedBinaryReader.ReadToEnd(System.Int32)">
+	<summary>
+   Reads the whole data in the base stream and returns it in an array of bytes.
+ </summary>
+	<param name="InitialLength">The initial buffer length.</param>
+	<returns>The stream's whole binary data.</returns>
+</member><member name="M:Go__ExtractIcons.UseAntiAlias.#ctor(System.Drawing.Graphics)">
+	<summary>
+ Initialize a new instance of the UseAntiAlias class.
+ </summary>
+	<param name="g">Graphics instance.</param>
+</member><member name="M:Go__ExtractIcons.UseAntiAlias.Dispose">
+	<summary>
+ Revert the SmoothingMode back to original setting.
+ </summary>
+</member><member name="T:Go__ExtractIcons.UseAntiAlias">
+	<summary>
+ Set the SmoothingMode=AntiAlias until instance disposed.
+ </summary>
+</member><member name="M:Go__ExtractIcons.UseClearTypeGridFit.#ctor(System.Drawing.Graphics)">
+	<summary>
+ Initialize a new instance of the UseClearTypeGridFit class.
+ </summary>
+	<param name="g">Graphics instance.</param>
+</member><member name="M:Go__ExtractIcons.UseClearTypeGridFit.Dispose">
+	<summary>
+ Revert the TextRenderingHint back to original setting.
+ </summary>
+</member><member name="T:Go__ExtractIcons.UseClearTypeGridFit">
+	<summary>
+ Set the TextRenderingHint.ClearTypeGridFit until instance disposed.
+ </summary>
+</member><member name="M:Go__ExtractIcons.UseClipping.#ctor(System.Drawing.Graphics,System.Drawing.Drawing2D.GraphicsPath)">
+	<summary>
+ Initialize a new instance of the UseClipping class.
+ </summary>
+	<param name="g">Graphics instance.</param>
+	<param name="path">Clipping path.</param>
+</member><member name="M:Go__ExtractIcons.UseClipping.#ctor(System.Drawing.Graphics,System.Drawing.Region)">
+	<summary>
+ Initialize a new instance of the UseClipping class.
+ </summary>
+	<param name="g">Graphics instance.</param>
+	<param name="region">Clipping region.</param>
+</member><member name="M:Go__ExtractIcons.UseClipping.Dispose">
+	<summary>
+ Revert clipping back to origina setting.
+ </summary>
+</member><member name="T:Go__ExtractIcons.UseClipping">
+	<summary>
+ Set the clipping region until instance disposed.
+ </summary>
+</member><member name="P:Go__ExtractIcons.ResourceName.Id">
+	<summary>
+ Gets the resource identifier, returns null if the resource is not an integer resource.
+ </summary>
+</member><member name="P:Go__ExtractIcons.ResourceName.Name">
+	<summary>
+ Gets the resource name, returns null if the resource is not a string resource.
+ </summary>
+</member><member name="P:Go__ExtractIcons.ResourceName.Value">
+	<summary>
+ Gets a pointer to resource name that can be used in FindResource function.
+ </summary>
+</member><member name="P:Go__ExtractIcons.ResourceName.IsIntResource">
+	<summary>
+ Gets whether the resource is an integer resource.
+ </summary>
+</member><member name="M:Go__ExtractIcons.ResourceName.#ctor(System.IntPtr)">
+	<summary>
+ Initializes a new TAFactory.IconPack.ResourceName object.
+ </summary>
+	<param name="lpName">Specifies the resource name. For more ifnormation, see the Remarks section.</param>
+	<remarks>
+ If the high bit of lpszName is not set (=0), lpszName specifies the integer identifier of the givin resource.
+ Otherwise, it is a pointer to a null terminated string.
+ If the first character of the string is a pound sign (#), the remaining characters represent a decimal number that specifies the integer identifier of the resource. For example, the string "#258" represents the identifier 258.
+ #define IS_INTRESOURCE(_r) ((((ULONG_PTR)(_r)) &gt;&gt; 16) == 0).
+ </remarks>
+</member><member name="M:Go__ExtractIcons.ResourceName.Finalize">
+	<summary>
+ Destructs the ResourceName object.
+ </summary>
+</member><member name="M:Go__ExtractIcons.ResourceName.ToString">
+	<summary>
+ Returns a System.String that represents the current TAFactory.IconPack.ResourceName.
+ </summary>
+	<returns>Returns a System.String that represents the current TAFactory.IconPack.ResourceName.</returns>
+</member><member name="M:Go__ExtractIcons.ResourceName.Free">
+	<summary>
+ Releases the pointer to the resource name.
+ </summary>
+</member><member name="M:Go__ExtractIcons.ResourceName.Dispose">
+	<summary>
+ Release the pointer to the resource name.
+ </summary>
+</member><member name="T:Go__ExtractIcons.ResourceName">
+	<summary>
+ Represents a resource name (either integer resource or string resource).
+ </summary>
+</member><member name="M:Go__ExtractIcons.GrayScaleConverter.ColorImageToGrayScaleImage(System.Drawing.Image)">
+	<summary>
+ Converts an image to grayscale
+ </summary>
+	<param name="inputImage">The image to be converted.</param>
+	<returns>Return's the input image, but with grayscale</returns>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.#ctor(System.String)">
+	<summary>
+ Initializes a new instance of the GoVisualTeam.IniFile class.
+ </summary>
+	<param name="Filename">The filename of the Inifile.</param>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.IniFile.FileName">
+	<summary>
+ Return's the filename of the INI file.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.GetString(System.String,System.String,System.String)">
+	<summary>
+ Returns a string from the INI file.
+ </summary>
+	<param name="Section">The selection to get the string from.</param>
+	<param name="Key">The key to get the string from.</param>
+	<param name="Default">The default value.</param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.GetInteger(System.String,System.String,System.Int32)">
+	<summary>
+ Returns an integer from the INI file.
+ </summary>
+	<param name="Section">The selection to get the integer from.</param>
+	<param name="Key">The key to get the integer from.</param>
+	<param name="Default">The default value.</param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.GetBoolean(System.String,System.String,System.Boolean)">
+	<summary>
+ Returns a boolean from the INI file.
+ </summary>
+	<param name="Section">The selection to get the boolean from.</param>
+	<param name="Key">The key to get the boolean from.</param>
+	<param name="Default">The default value.</param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.WriteString(System.String,System.String,System.String)">
+	<summary>
+ Writes a string to the INI file.
+ </summary>
+	<param name="Section">The selection to write in. If it doesn't exist, it creates a new with the name.</param>
+	<param name="Key">The key to write.</param>
+	<param name="Value">The string value to write on the key.</param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.WriteInteger(System.String,System.String,System.Int32)">
+	<summary>
+ Writes an integer to the INI file.
+ </summary>
+	<param name="Section">The selection to write in. If it doesn't exist, it creates a new with the name.</param>
+	<param name="Key">The key to write.</param>
+	<param name="Value">The integer value to write on the key.</param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.WriteBoolean(System.String,System.String,System.Boolean)">
+	<summary>
+ Writes a boolean to the INI file.
+ </summary>
+	<param name="Section">The selection to write in. If it doesn't exist, it creates a new with the name.</param>
+	<param name="Key">The key to write.</param>
+	<param name="Value">The boolean value to write on the key.</param>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.IniFile.Flush">
+	<summary>
+ Stores all the cached changes to the INI file.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Go__ExtractIcons.Html.HtmlElement.#ctor(System.String)">
+	<summary>
+ This constructs a new HTML element with the specified tag name.
+ </summary>
+	<param name="name">The name of this element</param>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.Name">
+	<summary>
+ This is the tag name of the element. e.g. BR, BODY, TABLE etc.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.Nodes">
+	<summary>
+ This is the collection of all child nodes of this one. If this node is actually
+ a text node, this will throw an InvalidOperationException exception.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.Attributes">
+	<summary>
+ This is the collection of attributes associated with this element.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.IsTerminated">
+	<summary>
+ This flag indicates that the element is explicitly closed using the "<name/>" method.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.IsExplicitlyTerminated">
+	<summary>
+ This flag indicates that the element is explicitly closed using the "name" method.
+ </summary>
+</member><member name="M:Go__ExtractIcons.Html.HtmlElement.ToString">
+	<summary>
+ This will return the HTML representation of this element.
+ </summary>
+	<returns></returns>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.HTML">
+	<summary>
+ This will return the HTML for this element and all subnodes.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.CleanHTML">
+	<summary>
+ This will return the clean HTML for this element and all subnodes.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.XHTML">
+	<summary>
+ This will return the XHTML for this element and all subnodes.
+ </summary>
+</member><member name="P:Go__ExtractIcons.Html.HtmlElement.CleanXHTML">
+	<summary>
+ This will return the XHTML for this element and all subnodes.
+ </summary>
+</member><member name="T:Go__ExtractIcons.Html.HtmlElement">
+	<summary>
+ The HtmlElement object represents any HTML element. An element has a name
+ and zero or more attributes.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconDir.ToGroupIconDir">
+	<summary>
+ Converts the current TAFactory.IconPack.IconDir into TAFactory.IconPack.GroupIconDir.
+ </summary>
+	<returns>TAFactory.IconPack.GroupIconDir</returns>
+</member><member name="T:Go__ExtractIcons.IconDir">
+	<summary>
+ Presents an Icon Directory.
+ </summary>
+</member><member name="M:Go__ExtractIcons.IconDirEntry.ToGroupIconDirEntry(System.Int32)">
+	<summary>
+ Converts the current TAFactory.IconPack.IconDirEntry into TAFactory.IconPack.GroupIconDirEntry.
+ </summary>
+	<param name="id">The resource identifier.</param>
+	<returns>TAFactory.IconPack.GroupIconDirEntry</returns>
+</member><member name="T:Go__ExtractIcons.IconDirEntry">
+	<summary>
+ Presents an Icon Directory Entry.
+ </summary>
+</member><member name="M:Go__ExtractIcons.GroupIconDir.ToIconDir">
+	<summary>
+ Converts the current TAFactory.IconPack.GroupIconDir into TAFactory.IconPack.IconDir.
+ </summary>
+	<returns>TAFactory.IconPack.IconDir</returns>
+</member><member name="T:Go__ExtractIcons.GroupIconDir">
+	<summary>
+ Presents a Group Icon Directory.
+ </summary>
+</member><member name="M:Go__ExtractIcons.GroupIconDirEntry.ToIconDirEntry(System.Int32)">
+	<summary>
+ Converts the current TAFactory.IconPack.GroupIconDirEntry into TAFactory.IconPack.IconDirEntry.
+ </summary>
+	<returns>TAFactory.IconPack.IconDirEntry</returns>
+</member><member name="T:Go__ExtractIcons.GroupIconDirEntry">
+	<summary>
+ Presents a Group Icon Directory Entry.
+ </summary>
+</member><member name="P:Go__ExtractIcons.GoTextBox.Icon">
+	<summary>
+ Gets or sets the image to be previewed.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.ShowIcon">
+	<summary>
+ Gets or sets indicating if the icon should be showed, or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.CutRadius">
+	<summary>
+ Gets or sets the cut for the radius on the border.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.ContextMenuStrip">
+	<summary>
+ Gets or sets the context menu strip.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.UseSystemPasswordChar">
+	<summary>
+ Gets or sets indicating if the textbox should use the system password char, or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.PasswordChar">
+	<summary>
+ Gets or sets the password char.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.MultiLine">
+	<summary>
+ Gets or sets indicating if the textbox should be multiline, or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.IsReadOnly">
+	<summary>
+ Gets or sets indicating if the textbox should be read only, or not.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.Text">
+	<summary>
+ Gets or sets the text to the control.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.BackgroundColor">
+	<summary>
+ Gets or sets the background color.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.NormalBorderColor">
+	<summary>
+ Gets or sets the normal border color.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.HoverBorderColor">
+	<summary>
+ Gets or sets the hover border color.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.SelectedBorderColor">
+	<summary>
+ Gets or sets the selected border color.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.DisabledBorderColor">
+	<summary>
+ Gets or sets the disabled border color.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.Disabled">
+	<summary>
+ Return's the control's disabled state.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.Selected">
+	<summary>
+ Return's the controls selected state.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Go__ExtractIcons.GoTextBox.Hover">
+	<summary>
+ Return's the controls hover state.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
